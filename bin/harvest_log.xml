@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2013-01-20T13:07:45</date>
+  <millis>1358708865317</millis>
+  <sequence>0</sequence>
+  <logger>com.javacareerlab.clscrammer.Harvester</logger>
+  <level>INFO</level>
+  <class>com.javacareerlab.clscrammer.Harvester</class>
+  <method>startHarvesting</method>
+  <thread>18</thread>
+  <message>Harvest is starting</message>
+</record>
+</log>

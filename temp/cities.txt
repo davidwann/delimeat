@@ -1,0 +1,523 @@
+
+classifieds|yes|newyork|EmpireCityClassifieds.com|the New York Metropolitan Area|mnh
+classifieds|yes|newyork|EmpireCityClassifieds.com|the New York Metropolitan Area|brk
+classifieds|yes|newyork|EmpireCityClassifieds.com|the New York Metropolitan Area|que
+classifieds|yes|newyork|EmpireCityClassifieds.com|the New York Metropolitan Area|brx
+classifieds|yes|newyork|EmpireCityClassifieds.com|the New York Metropolitan Area|stn
+classifieds|yes|newyork|EmpireCityClassifieds.com|the New York Metropolitan Area|jsy
+classifieds|yes|newyork|EmpireCityClassifieds.com|the New York Metropolitan Area|lgi
+classifieds|yes|newyork|EmpireCityClassifieds.com|the New York Metropolitan Area|wch
+classifieds|yes|newyork|EmpireCityClassifieds.com|the New York Metropolitan Area|fct
+
+classifieds|yes|houston|HarrisCountyClassifieds.com|Houston and Harris County Texas|xxx
+
+classifieds|yes|losangeles|LACountyClassifieds.com|Los Angeles County California|wst
+classifieds|yes|losangeles|LACountyClassifieds.com|Los Angeles County California|sfv
+classifieds|yes|losangeles|LACountyClassifieds.com|Los Angeles County California|lac
+classifieds|yes|losangeles|LACountyClassifieds.com|Los Angeles County California|sgv
+classifieds|yes|losangeles|LACountyClassifieds.com|Los Angeles County California|lgb
+classifieds|yes|losangeles|LACountyClassifieds.com|Los Angeles County California|ant
+
+classifieds|yes|phoenix|MaricopaFreeClassifieds.com|Phoenix and Maricopa County Arizona|cph
+classifieds|yes|phoenix|MaricopaFreeClassifieds.com|Phoenix and Maricopa County Arizona|evl
+classifieds|yes|phoenix|MaricopaFreeClassifieds.com|Phoenix and Maricopa County Arizona|nph
+classifieds|yes|phoenix|MaricopaFreeClassifieds.com|Phoenix and Maricopa County Arizona|wvl
+
+classifieds|yes|philadelphia|PhillyFreeClassifieds.com|Philadelphia Pennsylvania|xxx
+
+classifieds|yes|jonesboro|RedWolfClassifieds.com|Jonesboro and Northeast Arkansas|xxx
+
+classifieds|yes|littlerock|RockTownClassifieds.com|Little Rock and Central Arkansas|xxx
+
+classifieds|yes|chicago|SecondCityClassifieds.com|Chicago Illinois|chc
+classifieds|yes|chicago|SecondCityClassifieds.com|Chicago Illinois|nch
+classifieds|yes|chicago|SecondCityClassifieds.com|Chicago Illinois|wcl
+classifieds|yes|chicago|SecondCityClassifieds.com|Chicago Illinois|sox
+classifieds|yes|chicago|SecondCityClassifieds.com|Chicago Illinois|nwi
+classifieds|yes|chicago|SecondCityClassifieds.com|Chicago Illinois|nwc
+
+
+
+
+
+homesfsbo|no|jonesboro|JonesboroFSBO.com|Jonesboro and Northeast Arkansas|xxx
+homesfsbo|no|littlerock|PulaskiCountyFSBO.com|Little Rock and Central Arkansas|xxx
+homesfsbo|no|memphis|BluffCityFSBO.com|Memphis, Southwest TN, and Northwest MS|xxx
+homesfsbo|no|nashville|GrandOleFSBO.com|Nashville and Central Tennessee|xxx
+homesfsbo|no|knoxville|RockyTopFSBO.com|Knoxville and East Tennessee|xxx
+
+
+
+
+
+homesfsbo|yes|phoenix|GrandCanyonFSBO.com|Arizona|cph
+homesfsbo|yes|phoenix|GrandCanyonFSBO.com|Arizona|evl
+homesfsbo|yes|phoenix|GrandCanyonFSBO.com|Arizona|nph
+homesfsbo|yes|phoenix|GrandCanyonFSBO.com|Arizona|wvl
+
+homesfsbo|yes|flagstaff|GrandCanyonFSBO.com|Arizona|xxx
+homesfsbo|yes|mohave|GrandCanyonFSBO.com|Arizona|xxx
+homesfsbo|yes|prescott|GrandCanyonFSBO.com|Arizona|xxx
+homesfsbo|yes|showlow|GrandCanyonFSBO.com|Arizona|xxx
+homesfsbo|yes|sierravista|GrandCanyonFSBO.com|Arizona|xxx
+homesfsbo|yes|tucson|GrandCanyonFSBO.com|Arizona|xxx
+homesfsbo|yes|yuma|GrandCanyonFSBO.com|Arizona|xxx
+
+homesfsbo|yes|gulfport|MissFSBO.com|Mississippi|xxx
+homesfsbo|yes|hattiesburg|MissFSBO.com|Mississippi|xxx
+homesfsbo|yes|jackson|MissFSBO.com|Mississippi|xxx
+homesfsbo|yes|meridian|MissFSBO.com|Mississippi|xxx
+homesfsbo|yes|northmiss|MissFSBO.com|Mississippi|xxx
+homesfsbo|yes|natchez|MissFSBO.com|Mississippi|xxx
+
+homesfsbo|yes|sfbay|CaliHomesFSBO.com|California|sfc
+homesfsbo|yes|sfbay|CaliHomesFSBO.com|California|sby
+homesfsbo|yes|sfbay|CaliHomesFSBO.com|California|eby
+homesfsbo|yes|sfbay|CaliHomesFSBO.com|California|pen
+homesfsbo|yes|sfbay|CaliHomesFSBO.com|California|nby
+homesfsbo|yes|sfbay|CaliHomesFSBO.com|California|scz
+
+homesfsbo|yes|bakersfield|CaliHomesFSBO.com|California|xxx
+homesfsbo|yes|chico|CaliHomesFSBO.com|California|xxx
+homesfsbo|yes|fresno|CaliHomesFSBO.com|California|xxx
+homesfsbo|yes|goldcountry|CaliHomesFSBO.com|California|xxx
+homesfsbo|yes|hanford|CaliHomesFSBO.com|California|xxx
+homesfsbo|yes|humboldt|CaliHomesFSBO.com|California|xxx
+homesfsbo|yes|imperial|CaliHomesFSBO.com|California|xxx
+homesfsbo|yes|inlandempire|CaliHomesFSBO.com|California|xxx
+
+homesfsbo|yes|losangeles|CaliHomesFSBO.com|California|wst
+homesfsbo|yes|losangeles|CaliHomesFSBO.com|California|sfv
+homesfsbo|yes|losangeles|CaliHomesFSBO.com|California|lac
+homesfsbo|yes|losangeles|CaliHomesFSBO.com|California|sgv
+homesfsbo|yes|losangeles|CaliHomesFSBO.com|California|lgb
+homesfsbo|yes|losangeles|CaliHomesFSBO.com|California|ant
+
+homesfsbo|yes|mendocino|CaliHomesFSBO.com|California|xxx
+homesfsbo|yes|merced|CaliHomesFSBO.com|California|xxx
+homesfsbo|yes|modesto|CaliHomesFSBO.com|California|xxx
+homesfsbo|yes|monterey|CaliHomesFSBO.com|California|xxx
+homesfsbo|yes|orangecounty|CaliHomesFSBO.com|California|xxx
+homesfsbo|yes|palmsprings|CaliHomesFSBO.com|California|xxx
+homesfsbo|yes|redding|CaliHomesFSBO.com|California|xxx
+homesfsbo|yes|reno|CaliHomesFSBO.com|California|xxx
+homesfsbo|yes|sacramento|CaliHomesFSBO.com|California|xxx
+
+homesfsbo|yes|sandiego|CaliHomesFSBO.com|California|csd
+homesfsbo|yes|sandiego|CaliHomesFSBO.com|California|nsd
+homesfsbo|yes|sandiego|CaliHomesFSBO.com|California|esd
+homesfsbo|yes|sandiego|CaliHomesFSBO.com|California|ssd
+
+homesfsbo|yes|slo|CaliHomesFSBO.com|California|xxx
+homesfsbo|yes|santabarbara|CaliHomesFSBO.com|California|xxx
+homesfsbo|yes|santamaria|CaliHomesFSBO.com|California|xxx
+homesfsbo|yes|siskiyou|CaliHomesFSBO.com|California|xxx
+homesfsbo|yes|stockton|CaliHomesFSBO.com|California|xxx
+homesfsbo|yes|susanville|CaliHomesFSBO.com|California|xxx
+homesfsbo|yes|ventura|CaliHomesFSBO.com|California|xxx
+homesfsbo|yes|visalia|CaliHomesFSBO.com|California|xxx
+homesfsbo|yes|yubasutter|CaliHomesFSBO.com|California|xxx
+
+homesfsbo|yes|abilene|CowboyFSBO.com|Texas|xxx
+homesfsbo|yes|amarillo|CowboyFSBO.com|Texas|xxx
+homesfsbo|yes|austin|CowboyFSBO.com|Texas|xxx
+homesfsbo|yes|beaumont|CowboyFSBO.com|Texas|xxx
+homesfsbo|yes|brownsville.en|CowboyFSBO.com|Texas|xxx
+homesfsbo|yes|collegestation|CowboyFSBO.com|Texas|xxx
+homesfsbo|yes|corpuschristi|CowboyFSBO.com|Texas|xxx
+
+homesfsbo|yes|dallas|CowboyFSBO.com|Texas|dal
+homesfsbo|yes|dallas|CowboyFSBO.com|Texas|ftw
+homesfsbo|yes|dallas|CowboyFSBO.com|Texas|mdf
+homesfsbo|yes|dallas|CowboyFSBO.com|Texas|ndf
+homesfsbo|yes|dallas|CowboyFSBO.com|Texas|sdf
+
+homesfsbo|yes|nacogdoches|CowboyFSBO.com|Texas|xxx
+homesfsbo|yes|delrio|CowboyFSBO.com|Texas|xxx
+homesfsbo|yes|elpaso.en|CowboyFSBO.com|Texas|xxx
+homesfsbo|yes|galveston|CowboyFSBO.com|Texas|xxx
+homesfsbo|yes|houston|CowboyFSBO.com|Texas|xxx
+homesfsbo|yes|killeen|CowboyFSBO.com|Texas|xxx
+homesfsbo|yes|laredo|CowboyFSBO.com|Texas|xxx
+homesfsbo|yes|lubbock|CowboyFSBO.com|Texas|xxx
+homesfsbo|yes|mcallen.en|CowboyFSBO.com|Texas|xxx
+homesfsbo|yes|odessa|CowboyFSBO.com|Texas|xxx
+homesfsbo|yes|sanangelo|CowboyFSBO.com|Texas|xxx
+homesfsbo|yes|sanantonio|CowboyFSBO.com|Texas|xxx
+homesfsbo|yes|sanmarcos|CowboyFSBO.com|Texas|xxx
+homesfsbo|yes|bigbend|CowboyFSBO.com|Texas|xxx
+homesfsbo|yes|texarkana|CowboyFSBO.com|Texas|xxx
+homesfsbo|yes|texoma|CowboyFSBO.com|Texas|xxx
+homesfsbo|yes|easttexas|CowboyFSBO.com|Texas|xxx
+homesfsbo|yes|victoriatx|CowboyFSBO.com|Texas|xxx
+homesfsbo|yes|waco|CowboyFSBO.com|Texas|xxx
+homesfsbo|yes|wichitafalls|CowboyFSBO.com|Texas|xxx
+
+homesfsbo|yes|albany|EmpireStateFSBO.com|New York|xxx
+homesfsbo|yes|binghamton|EmpireStateFSBO.com|New York|xxx
+homesfsbo|yes|buffalo|EmpireStateFSBO.com|New York|xxx
+homesfsbo|yes|catskills|EmpireStateFSBO.com|New York|xxx
+homesfsbo|yes|chautauqua|EmpireStateFSBO.com|New York|xxx
+homesfsbo|yes|elmira|EmpireStateFSBO.com|New York|xxx
+homesfsbo|yes|fingerlakes|EmpireStateFSBO.com|New York|xxx
+homesfsbo|yes|glensfalls|EmpireStateFSBO.com|New York|xxx
+homesfsbo|yes|hudsonvalley|EmpireStateFSBO.com|New York|xxx
+homesfsbo|yes|ithaca|EmpireStateFSBO.com|New York|xxx
+homesfsbo|yes|longisland|EmpireStateFSBO.com|New York|xxx
+
+homesfsbo|yes|newyork|EmpireStateFSBO.com|New York|mnh
+homesfsbo|yes|newyork|EmpireStateFSBO.com|New York|brk
+homesfsbo|yes|newyork|EmpireStateFSBO.com|New York|que
+homesfsbo|yes|newyork|EmpireStateFSBO.com|New York|brx
+homesfsbo|yes|newyork|EmpireStateFSBO.com|New York|stn
+homesfsbo|yes|newyork|EmpireStateFSBO.com|New York|jsy
+homesfsbo|yes|newyork|EmpireStateFSBO.com|New York|lgi
+homesfsbo|yes|newyork|EmpireStateFSBO.com|New York|wch
+homesfsbo|yes|newyork|EmpireStateFSBO.com|New York|fct
+
+homesfsbo|yes|oneonta|EmpireStateFSBO.com|New York|xxx
+homesfsbo|yes|plattsburgh|EmpireStateFSBO.com|New York|xxx
+homesfsbo|yes|potsdam|EmpireStateFSBO.com|New York|xxx
+homesfsbo|yes|rochester|EmpireStateFSBO.com|New York|xxx
+homesfsbo|yes|syracuse|EmpireStateFSBO.com|New York|xxx
+homesfsbo|yes|twintiers|EmpireStateFSBO.com|New York|xxx
+homesfsbo|yes|utica|EmpireStateFSBO.com|New York|xxx
+homesfsbo|yes|watertown|EmpireStateFSBO.com|New York|xxx
+
+homesfsbo|yes|daytona|GatorStateFSBO.com|Florida|xxx
+homesfsbo|yes|keys|GatorStateFSBO.com|Florida|xxx
+homesfsbo|yes|fortmyers|GatorStateFSBO.com|Florida|xxx
+homesfsbo|yes|gainesville|GatorStateFSBO.com|Florida|xxx
+homesfsbo|yes|cfl|GatorStateFSBO.com|Florida|xxx
+homesfsbo|yes|jacksonville|GatorStateFSBO.com|Florida|xxx
+homesfsbo|yes|lakeland|GatorStateFSBO.com|Florida|xxx
+homesfsbo|yes|lakecity|GatorStateFSBO.com|Florida|xxx
+homesfsbo|yes|ocala|GatorStateFSBO.com|Florida|xxx
+homesfsbo|yes|okaloosa|GatorStateFSBO.com|Florida|xxx
+homesfsbo|yes|orlando|GatorStateFSBO.com|Florida|xxx
+homesfsbo|yes|panamacity|GatorStateFSBO.com|Florida|xxx
+homesfsbo|yes|pensacola|GatorStateFSBO.com|Florida|xxx
+homesfsbo|yes|sarasota|GatorStateFSBO.com|Florida|xxx
+
+homesfsbo|yes|miami|GatorStateFSBO.com|Florida|mdc
+homesfsbo|yes|miami|GatorStateFSBO.com|Florida|brw
+homesfsbo|yes|miami|GatorStateFSBO.com|Florida|pbc
+
+homesfsbo|yes|spacecoast|GatorStateFSBO.com|Florida|xxx
+homesfsbo|yes|staugustine|GatorStateFSBO.com|Florida|xxx
+homesfsbo|yes|tallahassee|GatorStateFSBO.com|Florida|xxx
+
+homesfsbo|yes|tampa|GatorStateFSBO.com|Florida|hdo
+homesfsbo|yes|tampa|GatorStateFSBO.com|Florida|hil
+homesfsbo|yes|tampa|GatorStateFSBO.com|Florida|psc
+homesfsbo|yes|tampa|GatorStateFSBO.com|Florida|pnl
+
+homesfsbo|yes|treasure|GatorStateFSBO.com|Florida|xxx
+
+homesfsbo|yes|bn|LandOfLincolnFSBO.com|Illinois|xxx
+homesfsbo|yes|chambana|LandOfLincolnFSBO.com|Illinois|xxx
+
+homesfsbo|yes|chicago|LandOfLincolnFSBO.com|Illinois|chc
+homesfsbo|yes|chicago|LandOfLincolnFSBO.com|Illinois|nch
+homesfsbo|yes|chicago|LandOfLincolnFSBO.com|Illinois|wcl
+homesfsbo|yes|chicago|LandOfLincolnFSBO.com|Illinois|sox
+homesfsbo|yes|chicago|LandOfLincolnFSBO.com|Illinois|nwi
+homesfsbo|yes|chicago|LandOfLincolnFSBO.com|Illinois|nwc
+
+homesfsbo|yes|decatur|LandOfLincolnFSBO.com|Illinois|xxx
+homesfsbo|yes|lasalle|LandOfLincolnFSBO.com|Illinois|xxx
+homesfsbo|yes|mattoon|LandOfLincolnFSBO.com|Illinois|xxx
+homesfsbo|yes|peoria|LandOfLincolnFSBO.com|Illinois|xxx
+
+homesfsbo|yes|rockford|LandOfLincolnFSBO.com|Illinois|xxx
+homesfsbo|yes|carbondale|LandOfLincolnFSBO.com|Illinois|xxx
+homesfsbo|yes|springfieldil|LandOfLincolnFSBO.com|Illinois|xxx
+
+homesfsbo|yes|quincy|LandOfLincolnFSBO.com|Illinois|xxx
+
+homesfsbo|yes|altoona|KeystoneFSBO.com|Pennsylvania|xxx
+homesfsbo|yes|chambersburg|KeystoneFSBO.com|Pennsylvania|xxx
+homesfsbo|yes|erie|KeystoneFSBO.com|Pennsylvania|xxx
+homesfsbo|yes|harrisburg|KeystoneFSBO.com|Pennsylvania|xxx
+homesfsbo|yes|lancaster|KeystoneFSBO.com|Pennsylvania|xxx
+homesfsbo|yes|allentown|KeystoneFSBO.com|Pennsylvania|xxx
+homesfsbo|yes|meadville|KeystoneFSBO.com|Pennsylvania|xxx
+homesfsbo|yes|philadelphia|KeystoneFSBO.com|Pennsylvania|xxx
+homesfsbo|yes|pittsburgh|KeystoneFSBO.com|Pennsylvania|xxx
+homesfsbo|yes|poconos|KeystoneFSBO.com|Pennsylvania|xxx
+homesfsbo|yes|reading|KeystoneFSBO.com|Pennsylvania|xxx
+homesfsbo|yes|scranton|KeystoneFSBO.com|Pennsylvania|xxx
+homesfsbo|yes|pennstate|KeystoneFSBO.com|Pennsylvania|xxx
+
+homesfsbo|yes|williamsport|KeystoneFSBO.com|Pennsylvania|xxx
+homesfsbo|yes|york|KeystoneFSBO.com|Pennsylvania|xxx
+
+homesfsbo|yes|akroncanton|BuckeyeFSBO.com|Ohio|xxx
+homesfsbo|yes|ashtabula|BuckeyeFSBO.com|Ohio|xxx
+homesfsbo|yes|athensohio|BuckeyeFSBO.com|Ohio|xxx
+homesfsbo|yes|chillicothe|BuckeyeFSBO.com|Ohio|xxx
+homesfsbo|yes|cincinnati|BuckeyeFSBO.com|Ohio|xxx
+homesfsbo|yes|cleveland|BuckeyeFSBO.com|Ohio|xxx
+homesfsbo|yes|columbus|BuckeyeFSBO.com|Ohio|xxx
+homesfsbo|yes|dayton|BuckeyeFSBO.com|Ohio|xxx
+homesfsbo|yes|huntington|BuckeyeFSBO.com|Ohio|xxx
+homesfsbo|yes|limaohio|BuckeyeFSBO.com|Ohio|xxx
+homesfsbo|yes|mansfield|BuckeyeFSBO.com|Ohio|xxx
+homesfsbo|yes|wheeling|BuckeyeFSBO.com|Ohio|xxx
+homesfsbo|yes|parkersburg|BuckeyeFSBO.com|Ohio|xxx
+homesfsbo|yes|sandusky|BuckeyeFSBO.com|Ohio|xxx
+homesfsbo|yes|toledo|BuckeyeFSBO.com|Ohio|xxx
+homesfsbo|yes|tuscarawas|BuckeyeFSBO.com|Ohio|xxx
+homesfsbo|yes|youngstown|BuckeyeFSBO.com|Ohio|xxx
+homesfsbo|yes|zanesville|BuckeyeFSBO.com|Ohio|xxx
+
+homesfsbo|yes|annarbor|GreatLakesFSBO.com|Michigan|xxx
+homesfsbo|yes|battlecreek|GreatLakesFSBO.com|Michigan|xxx
+homesfsbo|yes|centralmich|GreatLakesFSBO.com|Michigan|xxx
+
+homesfsbo|yes|detroit|GreatLakesFSBO.com|Michigan|mcb
+homesfsbo|yes|detroit|GreatLakesFSBO.com|Michigan|wyn
+homesfsbo|yes|detroit|GreatLakesFSBO.com|Michigan|okl
+
+homesfsbo|yes|flint|GreatLakesFSBO.com|Michigan|xxx
+homesfsbo|yes|grandrapids|GreatLakesFSBO.com|Michigan|xxx
+homesfsbo|yes|holland|GreatLakesFSBO.com|Michigan|xxx
+homesfsbo|yes|jxn|GreatLakesFSBO.com|Michigan|xxx
+homesfsbo|yes|kalamazoo|GreatLakesFSBO.com|Michigan|xxx
+homesfsbo|yes|lansing|GreatLakesFSBO.com|Michigan|xxx
+homesfsbo|yes|monroemi|GreatLakesFSBO.com|Michigan|xxx
+homesfsbo|yes|muskegon|GreatLakesFSBO.com|Michigan|xxx
+homesfsbo|yes|nmi|GreatLakesFSBO.com|Michigan|xxx
+homesfsbo|yes|porthuron|GreatLakesFSBO.com|Michigan|xxx
+homesfsbo|yes|saginaw|GreatLakesFSBO.com|Michigan|xxx
+homesfsbo|yes|southbend|GreatLakesFSBO.com|Michigan|xxx
+homesfsbo|yes|swmi|GreatLakesFSBO.com|Michigan|xxx
+homesfsbo|yes|thumb|GreatLakesFSBO.com|Michigan|xxx
+homesfsbo|yes|up|GreatLakesFSBO.com|Michigan|xxx
+
+homesfsbo|yes|asheville|TarHeelFSBO.com|North Carolina|xxx
+homesfsbo|yes|boone|TarHeelFSBO.com|North Carolina|xxx
+homesfsbo|yes|charlotte|TarHeelFSBO.com|North Carolina|xxx
+homesfsbo|yes|eastnc|TarHeelFSBO.com|North Carolina|xxx
+homesfsbo|yes|fayetteville|TarHeelFSBO.com|North Carolina|xxx
+homesfsbo|yes|greensboro|TarHeelFSBO.com|North Carolina|xxx
+homesfsbo|yes|hickory|TarHeelFSBO.com|North Carolina|xxx
+homesfsbo|yes|onslow|TarHeelFSBO.com|North Carolina|xxx
+homesfsbo|yes|outerbanks|TarHeelFSBO.com|North Carolina|xxx
+homesfsbo|yes|raleigh|TarHeelFSBO.com|North Carolina|xxx
+homesfsbo|yes|wilmington|TarHeelFSBO.com|North Carolina|xxx
+homesfsbo|yes|winstonsalem|TarHeelFSBO.com|North Carolina|xxx
+
+homesfsbo|yes|cnj|JerseyHomesFSBO.com|New Jersey|xxx
+homesfsbo|yes|jerseyshore|JerseyHomesFSBO.com|New Jersey|xxx
+homesfsbo|yes|newjersey|JerseyHomesFSBO.com|New Jersey|xxx
+homesfsbo|yes|southjersey|JerseyHomesFSBO.com|New Jersey|xxx
+
+homesfsbo|yes|charlottesville|OldDominionFSBO.com|Virginia|xxx
+homesfsbo|yes|danville|OldDominionFSBO.com|Virginia|xxx
+homesfsbo|yes|easternshore|OldDominionFSBO.com|Virginia|xxx
+homesfsbo|yes|fredericksburg|OldDominionFSBO.com|Virginia|xxx
+homesfsbo|yes|norfolk|OldDominionFSBO.com|Virginia|xxx
+homesfsbo|yes|harrisonburg|OldDominionFSBO.com|Virginia|xxx
+homesfsbo|yes|lynchburg|OldDominionFSBO.com|Virginia|xxx
+homesfsbo|yes|blacksburg|OldDominionFSBO.com|Virginia|xxx
+homesfsbo|yes|richmond|OldDominionFSBO.com|Virginia|xxx
+homesfsbo|yes|roanoke|OldDominionFSBO.com|Virginia|xxx
+homesfsbo|yes|swva|OldDominionFSBO.com|Virginia|xxx
+homesfsbo|yes|winchester|OldDominionFSBO.com|Virginia|xxx
+
+homesfsbo|yes|washingtondc|OldDominionFSBO.com|Virginia|doc
+homesfsbo|yes|washingtondc|OldDominionFSBO.com|Virginia|nva
+homesfsbo|yes|washingtondc|OldDominionFSBO.com|Virginia|mld
+
+homesfsbo|yes|bellingham|WashingtonHomesFSBO.com|Washington State|xxx
+homesfsbo|yes|kpr|WashingtonHomesFSBO.com|Washington State|xxx
+homesfsbo|yes|lewiston|WashingtonHomesFSBO.com|Washington State|xxx
+homesfsbo|yes|moseslake|WashingtonHomesFSBO.com|Washington State|xxx
+homesfsbo|yes|olympic|WashingtonHomesFSBO.com|Washington State|xxx
+homesfsbo|yes|pullman|WashingtonHomesFSBO.com|Washington State|xxx
+
+homesfsbo|yes|seattle|WashingtonHomesFSBO.com|Washington State|see
+homesfsbo|yes|seattle|WashingtonHomesFSBO.com|Washington State|est
+homesfsbo|yes|seattle|WashingtonHomesFSBO.com|Washington State|sno
+homesfsbo|yes|seattle|WashingtonHomesFSBO.com|Washington State|kit
+homesfsbo|yes|seattle|WashingtonHomesFSBO.com|Washington State|tac
+homesfsbo|yes|seattle|WashingtonHomesFSBO.com|Washington State|oly
+homesfsbo|yes|seattle|WashingtonHomesFSBO.com|Washington State|skc
+
+homesfsbo|yes|skagit|WashingtonHomesFSBO.com|Washington State|xxx
+homesfsbo|yes|spokane|WashingtonHomesFSBO.com|Washington State|xxx
+homesfsbo|yes|wenatchee|WashingtonHomesFSBO.com|Washington State|xxx
+homesfsbo|yes|yakima|WashingtonHomesFSBO.com|Washington State|xxx
+
+homesfsbo|yes|boston|BayStateFSBO.com|Massachusetts|gbs
+homesfsbo|yes|boston|BayStateFSBO.com|Massachusetts|nwb
+homesfsbo|yes|boston|BayStateFSBO.com|Massachusetts|bmw
+homesfsbo|yes|boston|BayStateFSBO.com|Massachusetts|nos
+homesfsbo|yes|boston|BayStateFSBO.com|Massachusetts|sob
+
+homesfsbo|yes|capecod|BayStateFSBO.com|Massachusetts|xxx
+homesfsbo|yes|southcoast|BayStateFSBO.com|Massachusetts|xxx
+homesfsbo|yes|westernmass|BayStateFSBO.com|Massachusetts|xxx
+homesfsbo|yes|worcester|BayStateFSBO.com|Massachusetts|xxx
+
+homesfsbo|yes|bloomington|HoosierStateFSBO.com|Indiana|xxx
+homesfsbo|yes|evansville|HoosierStateFSBO.com|Indiana|xxx
+homesfsbo|yes|fortwayne|HoosierStateFSBO.com|Indiana|xxx
+homesfsbo|yes|indianapolis|HoosierStateFSBO.com|Indiana|xxx
+homesfsbo|yes|kokomo|HoosierStateFSBO.com|Indiana|xxx
+homesfsbo|yes|tippecanoe|HoosierStateFSBO.com|Indiana|xxx
+homesfsbo|yes|muncie|HoosierStateFSBO.com|Indiana|xxx
+homesfsbo|yes|richmondin|HoosierStateFSBO.com|Indiana|xxx
+
+homesfsbo|yes|terrahaute|HoosierStateFSBO.com|Indiana|xxx
+
+homesfsbo|yes|columbiamo|ShowMeStateFSBO.com|Missouri|xxx
+homesfsbo|yes|joplin|ShowMeStateFSBO.com|Missouri|xxx
+homesfsbo|yes|kansascity|ShowMeStateFSBO.com|Missouri|xxx
+homesfsbo|yes|kirksville|ShowMeStateFSBO.com|Missouri|xxx
+homesfsbo|yes|loz|ShowMeStateFSBO.com|Missouri|xxx
+homesfsbo|yes|semo|ShowMeStateFSBO.com|Missouri|xxx
+homesfsbo|yes|springfield|ShowMeStateFSBO.com|Missouri|xxx
+homesfsbo|yes|stjoseph|ShowMeStateFSBO.com|Missouri|xxx
+homesfsbo|yes|stlouis|ShowMeStateFSBO.com|Missouri|xxx
+
+homesfsbo|yes|annapolis|FreeStateFSBO.com|Maryland|xxx
+homesfsbo|yes|baltimore|FreeStateFSBO.com|Maryland|xxx
+
+
+homesfsbo|yes|frederick|FreeStateFSBO.com|Maryland|xxx
+homesfsbo|yes|smd|FreeStateFSBO.com|Maryland|xxx
+homesfsbo|yes|westmd|FreeStateFSBO.com|Maryland|xxx
+
+homesfsbo|yes|appleton|BadgerStateFSBO.com|Wisconsin|xxx
+homesfsbo|yes|duluth|BadgerStateFSBO.com|Wisconsin|xxx
+homesfsbo|yes|eauclaire|BadgerStateFSBO.com|Wisconsin|xxx
+homesfsbo|yes|greenbay|BadgerStateFSBO.com|Wisconsin|xxx
+homesfsbo|yes|janesville|BadgerStateFSBO.com|Wisconsin|xxx
+homesfsbo|yes|racine|BadgerStateFSBO.com|Wisconsin|xxx
+homesfsbo|yes|lacrosse|BadgerStateFSBO.com|Wisconsin|xxx
+homesfsbo|yes|madison|BadgerStateFSBO.com|Wisconsin|xxx
+homesfsbo|yes|milwaukee|BadgerStateFSBO.com|Wisconsin|xxx
+homesfsbo|yes|northernwi|BadgerStateFSBO.com|Wisconsin|xxx
+homesfsbo|yes|sheboygan|BadgerStateFSBO.com|Wisconsin|xxx
+homesfsbo|yes|wausau|BadgerStateFSBO.com|Wisconsin|xxx
+
+homesfsbo|yes|bemidji|GopherStateFSBO.com|Minnesota|xxx
+homesfsbo|yes|brainerd|GopherStateFSBO.com|Minnesota|xxx
+
+homesfsbo|yes|fargo|GopherStateFSBO.com|Minnesota|xxx
+homesfsbo|yes|mankato|GopherStateFSBO.com|Minnesota|xxx
+
+homesfsbo|yes|minneapolis|GopherStateFSBO.com|Minnesota|hnp
+homesfsbo|yes|minneapolis|GopherStateFSBO.com|Minnesota|ram
+homesfsbo|yes|minneapolis|GopherStateFSBO.com|Minnesota|ank
+homesfsbo|yes|minneapolis|GopherStateFSBO.com|Minnesota|wsh
+homesfsbo|yes|minneapolis|GopherStateFSBO.com|Minnesota|dak
+homesfsbo|yes|minneapolis|GopherStateFSBO.com|Minnesota|csw
+
+homesfsbo|yes|rmn|GopherStateFSBO.com|Minnesota|xxx
+homesfsbo|yes|marshall|GopherStateFSBO.com|Minnesota|xxx
+homesfsbo|yes|stcloud|GopherStateFSBO.com|Minnesota|xxx
+
+homesfsbo|yes|boulder|CentennialStateFSBO.com|Colorado|xxx
+homesfsbo|yes|cosprings|CentennialStateFSBO.com|Colorado|xxx
+homesfsbo|yes|denver|CentennialStateFSBO.com|Colorado|xxx
+homesfsbo|yes|eastco|CentennialStateFSBO.com|Colorado|xxx
+homesfsbo|yes|fortcollins|CentennialStateFSBO.com|Colorado|xxx
+homesfsbo|yes|rockies|CentennialStateFSBO.com|Colorado|xxx
+homesfsbo|yes|pueblo|CentennialStateFSBO.com|Colorado|xxx
+homesfsbo|yes|westslope|CentennialStateFSBO.com|Colorado|xxx
+
+homesfsbo|yes|auburn|HeartOfDixieFSBO.com|Alabama|xxx
+homesfsbo|yes|bham|HeartOfDixieFSBO.com|Alabama|xxx
+homesfsbo|yes|columbusga|HeartOfDixieFSBO.com|Alabama|xxx
+homesfsbo|yes|dothan|HeartOfDixieFSBO.com|Alabama|xxx
+homesfsbo|yes|shoals|HeartOfDixieFSBO.com|Alabama|xxx
+homesfsbo|yes|gadsden|HeartOfDixieFSBO.com|Alabama|xxx
+homesfsbo|yes|huntsville|HeartOfDixieFSBO.com|Alabama|xxx
+homesfsbo|yes|mobile|HeartOfDixieFSBO.com|Alabama|xxx
+homesfsbo|yes|montgomery|HeartOfDixieFSBO.com|Alabama|xxx
+homesfsbo|yes|tuscaloosa|HeartOfDixieFSBO.com|Alabama|xxx
+
+
+homesfsbo|yes|charleston|PalmettoStateFSBO.com|South Carolina|xxx
+homesfsbo|yes|columbia|PalmettoStateFSBO.com|South Carolina|xxx
+homesfsbo|yes|florencesc|PalmettoStateFSBO.com|South Carolina|xxx
+homesfsbo|yes|greenville|PalmettoStateFSBO.com|South Carolina|xxx
+homesfsbo|yes|hiltonhead|PalmettoStateFSBO.com|South Carolina|xxx
+homesfsbo|yes|myrtlebeach|PalmettoStateFSBO.com|South Carolina|xxx
+
+homesfsbo|yes|batonrouge|PelicanStateFSBO.com|Louisiana|xxx
+homesfsbo|yes|cenla|PelicanStateFSBO.com|Louisiana|xxx
+homesfsbo|yes|houma|PelicanStateFSBO.com|Louisiana|xxx
+homesfsbo|yes|lafayette|PelicanStateFSBO.com|Louisiana|xxx
+homesfsbo|yes|lakecharles|PelicanStateFSBO.com|Louisiana|xxx
+homesfsbo|yes|monroe|PelicanStateFSBO.com|Louisiana|xxx
+homesfsbo|yes|neworleans|PelicanStateFSBO.com|Louisiana|xxx
+homesfsbo|yes|shreveport|PelicanStateFSBO.com|Louisiana|xxx
+
+homesfsbo|yes|bgky|BluegrassStateFSBO.com|Kentucky|xxx
+homesfsbo|yes|eastky|BluegrassStateFSBO.com|Kentucky|xxx
+
+homesfsbo|yes|lexington|BluegrassStateFSBO.com|Kentucky|xxx
+homesfsbo|yes|louisville|BluegrassStateFSBO.com|Kentucky|xxx
+homesfsbo|yes|owensboro|BluegrassStateFSBO.com|Kentucky|xxx
+homesfsbo|yes|westky|BluegrassStateFSBO.com|Kentucky|xxx
+
+homesfsbo|yes|bend|BeaverStateFSBO.com|Oregon|xxx
+homesfsbo|yes|corvallis|BeaverStateFSBO.com|Oregon|xxx
+homesfsbo|yes|eastoregon|BeaverStateFSBO.com|Oregon|xxx
+homesfsbo|yes|eugene|BeaverStateFSBO.com|Oregon|xxx
+homesfsbo|yes|klamath|BeaverStateFSBO.com|Oregon|xxx
+homesfsbo|yes|medford|BeaverStateFSBO.com|Oregon|xxx
+homesfsbo|yes|oregoncoast|BeaverStateFSBO.com|Oregon|xxx
+
+homesfsbo|yes|portland|BeaverStateFSBO.com|Oregon|mlt
+homesfsbo|yes|portland|BeaverStateFSBO.com|Oregon|wsc
+homesfsbo|yes|portland|BeaverStateFSBO.com|Oregon|clk
+homesfsbo|yes|portland|BeaverStateFSBO.com|Oregon|clc
+homesfsbo|yes|portland|BeaverStateFSBO.com|Oregon|nco
+homesfsbo|yes|portland|BeaverStateFSBO.com|Oregon|yam
+homesfsbo|yes|portland|BeaverStateFSBO.com|Oregon|grg
+
+homesfsbo|yes|roseburg|BeaverStateFSBO.com|Oregon|xxx
+homesfsbo|yes|salem|BeaverStateFSBO.com|Oregon|xxx
+
+homesfsbo|yes|lawton|SoonerStateFSBO.com|Oklahoma|xxx
+homesfsbo|yes|enid|SoonerStateFSBO.com|Oklahoma|xxx
+homesfsbo|yes|oklahomacity|SoonerStateFSBO.com|Oklahoma|xxx
+homesfsbo|yes|stillwater|SoonerStateFSBO.com|Oklahoma|xxx
+
+homesfsbo|yes|tulsa|SoonerStateFSBO.com|Oklahoma|xxx
+
+homesfsbo|yes|newlondon|NutmegStateFSBO.com|Connecticut|xxx
+homesfsbo|yes|hartford|NutmegStateFSBO.com|Connecticut|xxx
+homesfsbo|yes|newhaven|NutmegStateFSBO.com|Connecticut|xxx
+homesfsbo|yes|nwct|NutmegStateFSBO.com|Connecticut|xxx
+
+homesfsbo|yes|ames|IowaHomesFSBO.com|Iowa|xxx
+homesfsbo|yes|cedarrapids|IowaHomesFSBO.com|Iowa|xxx
+homesfsbo|yes|desmoines|IowaHomesFSBO.com|Iowa|xxx
+homesfsbo|yes|dubuque|IowaHomesFSBO.com|Iowa|xxx
+homesfsbo|yes|fortdodge|IowaHomesFSBO.com|Iowa|xxx
+homesfsbo|yes|iowacity|IowaHomesFSBO.com|Iowa|xxx
+homesfsbo|yes|masoncity|IowaHomesFSBO.com|Iowa|xxx
+homesfsbo|yes|omaha|IowaHomesFSBO.com|Iowa|xxx
+homesfsbo|yes|quadcities|IowaHomesFSBO.com|Iowa|xxx
+homesfsbo|yes|siouxcity|IowaHomesFSBO.com|Iowa|xxx
+homesfsbo|yes|ottumwa|IowaHomesFSBO.com|Iowa|xxx
+homesfsbo|yes|waterloo|IowaHomesFSBO.com|Iowa|xxx
+
+homesfsbo|yes|lawrence|SunflowerFSBO.com|Kansas|xxx
+homesfsbo|yes|ksu|SunflowerFSBO.com|Kansas|xxx
+homesfsbo|yes|nwks|SunflowerFSBO.com|Kansas|xxx
+homesfsbo|yes|salina|SunflowerFSBO.com|Kansas|xxx
+homesfsbo|yes|seks|SunflowerFSBO.com|Kansas|xxx
+homesfsbo|yes|swks|SunflowerFSBO.com|Kansas|xxx
+homesfsbo|yes|topeka|SunflowerFSBO.com|Kansas|xxx
+homesfsbo|yes|wichita|SunflowerFSBO.com|Kansas|xxx
+
+homesfsbo|yes|elko|BattleBornFSBO.com|Nevada|xxx
+homesfsbo|yes|lasvegas|BattleBornFSBO.com|Nevada|xxx
+

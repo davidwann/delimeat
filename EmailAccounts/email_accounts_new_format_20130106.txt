@@ -1,0 +1,11 @@
+N|david@crestwoodcomputing.com|david+crestwoodcomputing.com|gohogs|mail.crestwoodcomputing.com|25|x|crestwoodcomputing.com
+Y|kristen5613@q.com|kristen5613@q.com|princess1978|smtp.q.com|587|x|q.com
+Y|bluefox3@windstream.net|bluefox3@windstream.net|pizza4|smtp.windstream.net|25|x|windstream.net
+Y|barrettpat@bellsouth.net|barrettpat@bellsouth.net|barrett05|outbound.att.net|25|barrettpat|bellsouth.net
+Y|emkay@citlink.net|emkay@citlink.net|llamas|smtp.frontier.com|25|x|citlink.net
+Y|tmoudy@q.com|tmoudy@q.com|lisa81966|smtp.q.com|587|noreply2|q.com
+Y|kellimelton@sbcglobal.net|kellimelton@sbcglobal.net|hotshot27|outbound.att.net|25|kellimelton|sbcglobal.net
+Y|diknmar@centurytel.net|diknmar@centurytel.net|ds567456f|smtpauth.centurytel.net|25|noreply|centurytel.net
+Y|dm10450@att.net|dm10450@att.net|loopy1|outbound.att.net|25|dm10450|att.net
+Y|jerry.blackwell@comcast.net|jerry.blackwell|whyme@52|smtp.comcast.net|25|jerry.blackwell|comcast.net
+Y|kymbo@mwpower.net|kymbo@mwpower.net|Zipper01|smtp.mwpower.net|25|noreply|mwpower.net

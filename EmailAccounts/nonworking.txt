@@ -1,0 +1,5 @@
+N|kristen5613@q.com|kristen5613@q.com|princess1978|smtp.q.com|587|kristen5613|q.com
+Y|barrettpat@bellsouth.net|barrettpat@bellsouth.net|barrett05|outbound.att.net|25|barrettpat|bellsouth.net
+Y|tmoudy@q.com|tmoudy@q.com|lisa81966|smtp.q.com|587|tmoudy|q.com
+Y|jerry.blackwell@comcast.net|jerry.blackwell|whyme@52|smtp.comcast.net|25|jerry.blackwell|comcast.net
+Y|kymbo@mwpower.net|kymbo@mwpower.net|Zipper01|smtp.mwpower.net|25|kymbo|mwpower.net

@@ -1,0 +1,109 @@
+kid|Childcare|Community
+
+reo|Real Estate by Owner|Housing
+apa|Apts/Housing For Rent|Housing
+roo|Rooms & Shares|Housing
+sub|Sublets & Temporary|Housing
+sha|Room/Share Wanted|Housing
+vac|Vacation Rentals|Housing
+off|Office & Commercial|Housing
+prk|Parking & Storage|Housing
+swp|Housing Swap|Housing
+
+app|Appliances|For Sale / Wanted
+atq|Antiques|For Sale / Wanted
+bar|Barter|For Sale / Wanted
+bik|Bikes|For Sale / Wanted
+boa|Boats|For Sale / Wanted
+bks|Books|For Sale / Wanted
+bfs|Business|For Sale / Wanted
+sys|Computers & Tech|For Sale / Wanted
+zip|Free|For Sale / Wanted
+fua|Furniture|For Sale / Wanted
+for|General|For Sale / Wanted
+jwl|Jewelry|For Sale / Wanted
+mat|Materials|For Sale / Wanted
+rvs|RVs|For Sale / Wanted
+spo|Sporting|For Sale / Wanted
+tix|Tickets|For Sale / Wanted
+tls|Tools|For Sale / Wanted
+wan|Wanted|For Sale / Wanted
+art|Arts & Crafts|For Sale / Wanted
+pts|Auto Parts|For Sale / Wanted
+bab|Baby & Kids|For Sale / Wanted
+hab|Beauty & Health|For Sale / Wanted
+cta|Cars & Trucks|For Sale / Wanted
+emd|CDs, DVDs, & VHS|For Sale / Wanted
+mob|Cell Phones|For Sale / Wanted
+clo|Clothes & Accessories|For Sale / Wanted
+clt|Collectibles|For Sale / Wanted
+ele|Electronics|For Sale / Wanted
+grd|Farm & Garden|For Sale / Wanted
+gms|Garage Sales|For Sale / Wanted
+hsh|Household|For Sale / Wanted
+mcy|Motorcycles|For Sale / Wanted
+msg|Music Instruction|For Sale / Wanted
+pho|Photo & Video|For Sale / Wanted
+tag|Toys & Games|For Sale / Wanted
+vgm|Video Gaming|For Sale / Wanted
+
+bts|Beauty|Services
+cps|Computer|Services
+crs|Creative|Services
+evs|Event|Services
+fns|Financial|Services
+lgs|Legal|Services
+lss|Lessons|Services
+pas|Pet|Services
+aos|Automotive|Services
+fgs|Farm & Garden|Services
+hss|Household|Services
+lbs|Labor & Moving|Services
+sks|Skilled Trades|Services
+rts|Real Estate|Services
+biz|Small Business Ads|Services
+thp|Therapeutic|Services
+trv|Travel & Vacation|Services
+wet|Writing, Editing, & Translation|Services
+
+acc|Accounting & Finance|Jobs
+ofc|Admin & Office|Jobs
+egr|Arch & Engineering|Jobs
+med|Art, Media, & Design|Jobs
+sci|Biotech & Science|Jobs
+bus|Business & Management|Jobs
+csr|Customer Service|Jobs
+edu|Education|Jobs
+fbh|Food, Beverage, & Hospitality|Jobs
+lab|General Labor|Jobs
+gov|Government|Jobs
+hum|Human Resources|Jobs
+eng|Internet Engineers|Jobs
+lgl|Legal & Paralegal|Jobs
+mnu|Manufacturing|Jobs
+mar|Marketing, Public Relations, & Advertising|Jobs
+hea|Medical & Health|Jobs
+npo|Nonprofit Sector|Jobs
+rej|Real Estate|Jobs
+ret|Retail & Wholesale|Jobs
+sls|Sales & Business Development|Jobs
+spa|Salon, Spa, & Fitness|Jobs
+sec|Security|Jobs
+trd|Skilled Trades & Craft|Jobs
+sof|Software, QA, & DBA|Jobs
+sad|Systems & Network|Jobs
+tch|Technical Support|Jobs
+trp|Transportation|Jobs
+tfr|TV, Film, & Video|Jobs
+web|Web & Info Design|Jobs
+wri|Writing & Editing|Jobs
+etc|Et Cetera|Jobs
+
+cpg|Computer|Gigs
+crg|Creative|Gigs
+cwg|Crew|Gigs
+dmg|Domestic|Gigs
+evg|Event|Gigs
+lbg|Labor|Gigs
+wrg|Writing|Gigs
+tlg|Talent|Gigs

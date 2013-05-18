@@ -1,0 +1,191 @@
+
+Gui is being launched.
+Scrammer main() is finished.
+MainFrame is being created and displayed.
+Button [Start Sending Emails] was clicked
+ 
+Emailer.sendEmails() is starting.
+ 
+ 
+Email Error!
+ 
+Domain contains dot-dot
+ 
+ 
+Id           : 583724
+Email        : Only@313-312-2473..If
+Ad Url       : http://detroit.craigslist.org/mcb/reo/3544923568.html
+Ad Date      : 2013-01-21
+Contacted    : false
+City         : detroit
+City Sector  : mcb
+Ad Category  : reo
+Website      : GreatLakesFSBO.com
+Website Type : homesfsbo
+Created      : 2013-01-21 21:41:31.359
+Modified     : 2013-01-21 21:41:31.359
+Region       : Michigan
+ 
+ 
+Email Address      : emkay@citlink.net
+Username           : emkay@citlink.net
+Password           : llamas
+Smtp Host          : smtp.frontier.com
+Smtp Port          : 25
+Noreply Local Part : emkay
+Noreply Domain     : citlink.net
+ 
+javax.mail.internet.AddressException: Domain contains dot-dot in string ``Only@313-312-2473..If''
+	at javax.mail.internet.InternetAddress.checkAddress(InternetAddress.java:1272)
+	at javax.mail.internet.InternetAddress.parse(InternetAddress.java:1091)
+	at javax.mail.internet.InternetAddress.parse(InternetAddress.java:633)
+	at javax.mail.internet.InternetAddress.<init>(InternetAddress.java:111)
+	at com.javacareerlab.clscrammer.Emailer.contactProspect(Emailer.java:298)
+	at com.javacareerlab.clscrammer.Emailer.sendEmails(Emailer.java:150)
+	at com.javacareerlab.clscrammer.Emailer.run(Emailer.java:82)
+	at java.lang.Thread.run(Unknown Source)
+ 
+Email Error!
+ 
+Invalid Addresses
+ 
+ 
+Id           : 603014
+Email        : details...cody@galvestonhousedeals.com
+Ad Url       : http://galveston.craigslist.org/reo/3555255873.html
+Ad Date      : 2013-01-21
+Contacted    : false
+City         : galveston
+City Sector  : xxx
+Ad Category  : reo
+Website      : CowboyFSBO.com
+Website Type : homesfsbo
+Created      : 2013-01-21 22:32:02.648
+Modified     : 2013-01-21 22:32:02.648
+Region       : Texas
+ 
+ 
+Email Address      : lmartin_7392@fuse.net
+Username           : lmartin_7392@fuse.net
+Password           : frosty1942
+Smtp Host          : smtp.fuse.net
+Smtp Port          : 25
+Noreply Local Part : lmartin_7392
+Noreply Domain     : fuse.net
+ 
+javax.mail.SendFailedException: Invalid Addresses;
+  nested exception is:
+	com.sun.mail.smtp.SMTPAddressFailedException: 501 5.5.2 RCPT TO syntax error
+
+	at com.sun.mail.smtp.SMTPTransport.rcptTo(SMTPTransport.java:1835)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1098)
+	at javax.mail.Transport.send0(Transport.java:195)
+	at javax.mail.Transport.send(Transport.java:124)
+	at com.javacareerlab.clscrammer.Emailer.contactProspect(Emailer.java:316)
+	at com.javacareerlab.clscrammer.Emailer.sendEmails(Emailer.java:150)
+	at com.javacareerlab.clscrammer.Emailer.run(Emailer.java:82)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.sun.mail.smtp.SMTPAddressFailedException: 501 5.5.2 RCPT TO syntax error
+
+	at com.sun.mail.smtp.SMTPTransport.rcptTo(SMTPTransport.java:1686)
+	... 7 more
+ 
+Email Error!
+ 
+Could not connect to SMTP host: smtp.fuse.net, port: 25, response: 550
+ 
+ 
+Id           : 684518
+Email        : hassanin@verizon.net
+Ad Url       : http://newjersey.craigslist.org/reo/3482396008.html
+Ad Date      : 2013-01-22
+Contacted    : false
+City         : newjersey
+City Sector  : xxx
+Ad Category  : reo
+Website      : JerseyHomesFSBO.com
+Website Type : homesfsbo
+Created      : 2013-01-22 02:55:39.662
+Modified     : 2013-01-22 02:55:39.662
+Region       : New Jersey
+ 
+ 
+Email Address      : lmartin_7392@fuse.net
+Username           : lmartin_7392@fuse.net
+Password           : frosty1942
+Smtp Host          : smtp.fuse.net
+Smtp Port          : 25
+Noreply Local Part : lmartin_7392
+Noreply Domain     : fuse.net
+ 
+javax.mail.MessagingException: Could not connect to SMTP host: smtp.fuse.net, port: 25, response: 550
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1922)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:638)
+	at javax.mail.Service.connect(Service.java:317)
+	at javax.mail.Service.connect(Service.java:176)
+	at javax.mail.Service.connect(Service.java:125)
+	at javax.mail.Transport.send0(Transport.java:194)
+	at javax.mail.Transport.send(Transport.java:124)
+	at com.javacareerlab.clscrammer.Emailer.contactProspect(Emailer.java:316)
+	at com.javacareerlab.clscrammer.Emailer.sendEmails(Emailer.java:150)
+	at com.javacareerlab.clscrammer.Emailer.run(Emailer.java:82)
+	at java.lang.Thread.run(Unknown Source)
+ 
+Email Error!
+ 
+550 Sender is restricted
+
+ 
+ 
+Id           : 684518
+Email        : hassanin@verizon.net
+Ad Url       : http://newjersey.craigslist.org/reo/3482396008.html
+Ad Date      : 2013-01-22
+Contacted    : false
+City         : newjersey
+City Sector  : xxx
+Ad Category  : reo
+Website      : JerseyHomesFSBO.com
+Website Type : homesfsbo
+Created      : 2013-01-22 02:55:39.662
+Modified     : 2013-01-22 02:55:39.662
+Region       : New Jersey
+ 
+ 
+Email Address      : bluefox3@windstream.net
+Username           : bluefox3@windstream.net
+Password           : pizza4
+Smtp Host          : smtp.windstream.net
+Smtp Port          : 25
+Noreply Local Part : bluefox3
+Noreply Domain     : windstream.net
+ 
+com.sun.mail.smtp.SMTPSendFailedException: 550 Sender is restricted
+;
+  nested exception is:
+	com.sun.mail.smtp.SMTPSenderFailedException: 550 Sender is restricted
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2057)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1580)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1097)
+	at javax.mail.Transport.send0(Transport.java:195)
+	at javax.mail.Transport.send(Transport.java:124)
+	at com.javacareerlab.clscrammer.Emailer.contactProspect(Emailer.java:316)
+	at com.javacareerlab.clscrammer.Emailer.sendEmails(Emailer.java:150)
+	at com.javacareerlab.clscrammer.Emailer.run(Emailer.java:82)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.sun.mail.smtp.SMTPSenderFailedException: 550 Sender is restricted
+
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1587)
+	... 7 more
+ 
+rs.next() returned FALSE!
+Verify we are out of uncontacted prospects!
+ 
+ 
+Emailer has finished.
+ 
+
+
+
+
