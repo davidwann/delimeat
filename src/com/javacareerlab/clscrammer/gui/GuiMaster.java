@@ -10,7 +10,8 @@ public class GuiMaster {
 		
 		SwingUtilities.invokeLater(new Runnable() {
 			public void run() {
-				MainFrame.createAndShowFrame();
+				// MainFrame.createAndShowFrame();
+				Test001Frame.createAndShowFrame();
 			}
 		});
 	}

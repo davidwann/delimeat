@@ -1,0 +1,36 @@
+<project>
+
+	<path id="javax.mail.jar">
+		<pathelement location="C:/glassfish4/glassfish/modules/javax.mail.jar" />
+	</path>
+	
+	<target name="clean">
+		<delete dir="build" />
+	</target>
+	
+	<target name="compile">
+		<mkdir dir="build/classes" />
+		<javac srcdir="src" destdir="build/classes" classpathref="javax.mail.jar" />
+	</target>
+
+	<target name="jar">
+		<mkdir dir="build/jar" />
+		<jar destfile="build/jar/Scrammer.jar" basedir="build/classes">
+			<manifest>
+				<attribute name="Main-Class" value="com.javacareerlab.clscrammer.Scrammer" />
+			</manifest>
+		</jar>
+	</target>
+
+	<target name="run">
+		<java jar="build/jar/Scrammer.jar" fork="true" />
+	</target>
+
+<!-- 
+C:\glassfish4\glassfish\modules
+javax.mail.jar
+C:/glassfish4/glassfish/modules/javax.mail.jar
+C:/glassfish3/glassfish/modules/javax.mail.jar
+-->	
+	
+</project>

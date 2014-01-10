@@ -1,10 +1,4 @@
+Wed Jan 08 17:16:57 CST 2014 : Apache Derby Network Server - 10.8.3.0 - (1405108) started and ready to accept connections on port 1527
 ----------------------------------------------------------------
-Mon Feb 18 01:00:52 GMT-06:00 2013:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.2.2 - (1181258): instance a816c00e-013c-ec1a-eb0c-0000064b1d08 
-on database directory D:\JavaCLScrammer\SpamDB  with class loader sun.misc.Launcher$AppClassLoader@7434600d 
-Loaded from file:/C:/Program%20Files/Java/jdk1.7.0_10/db/lib/derby.jar
-java.vendor=Oracle Corporation
-java.runtime.version=1.7.0_10-b18
-user.dir=C:\Users\Joe\workspace\JavaCLScrammer
-derby.system.home=null
-Database Class Loader started - derby.database.classpath=''
+Wed Jan 08 17:17:18 CST 2014: Shutting down Derby engine
+----------------------------------------------------------------
