@@ -1,7 +1,10 @@
 <project>
 
-	<path id="javax.mail.jar">
+	<path id="stuff-i-need">
 		<pathelement location="C:/glassfish4/glassfish/modules/javax.mail.jar" />
+		<pathelement location="C:/Program Files/Java/jdk1.7.0_45/db/lib/derbyclient.jar" />
+	 	<pathelement location="C:/Program Files/Java/jdk1.7.0_45/db/lib/derby.jar" />
+
 	</path>
 	
 	<target name="clean">
@@ -10,7 +13,7 @@
 	
 	<target name="compile">
 		<mkdir dir="build/classes" />
-		<javac srcdir="src" destdir="build/classes" classpathref="javax.mail.jar" />
+		<javac srcdir="src" destdir="build/classes" classpathref="stuff-i-need" />
 	</target>
 
 	<target name="jar">
@@ -23,7 +26,7 @@
 	</target>
 
 	<target name="run">
-		<java jar="build/jar/Scrammer.jar" fork="true" />
+		<java jar="build/jar/Scrammer.jar" fork="true" classpathref="stuff-i-need" />
 	</target>
 
 <!-- 

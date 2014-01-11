@@ -19,7 +19,7 @@ public class Scrammer {
 		
 		
 		
-		System.out.println("Scrammer main() is finished.");
+		// System.out.println("Scrammer main() is finished.");
 	}
 
 	/* ---------------------------------------------------------- */
