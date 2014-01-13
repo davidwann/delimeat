@@ -3,6 +3,8 @@ package com.javacareerlab.clscrammer.db;
 
 // import org.apache.derby.jdbc.ClientDriver;
 
+// import org.apache.derby.jdbc.EmbeddedDriver;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -37,22 +39,26 @@ public class SpamDb {
 		
 		String conString;
 		
-		// ClientDriver derby = new ClientDriver();
+		// - - - - - - - - - - - - - - - - - - - - - - - -
 		
-		Properties connectionProps = new Properties();
+		// Properties connectionProps = new Properties();
+		
+		// connectionProps.put("user", "APP");
+		// connectionProps.put("password", "");
 		
 		// - - - - - - - - - - - - - - - - - - - - - - - -
 		
-		// conString = "jdbc:derby://localhost:1527/SpamDb;create=true";
-		// conString = "jdbc:derby://10.8.3.0:1527/SpamDb;create=true";
-		conString = "jdbc:derby://localhost:1527/SpamDb";
+		conString = "jdbc:derby://localhost:1527/SpamDb;create=true";
 		
-		connectionProps.put("user", "APP");
-		connectionProps.put("password", "");
+		// conString = "jdbc:derby://10.8.3.0:1527/SpamDb;create=true";
+		// conString = "jdbc:derby://localhost:1527/SpamDb";
+		// conString = "jdbc:derby:SpamDb;create=true";
 		
 		try {
 			
 			// Class.forName("org.apache.derby.jdbc.ClientDriver");
+			// Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
+			
 			// DriverManager.registerDriver(new ClientDriver());
 			
 			// SpamDb.connection = DriverManager.getConnection(conString, connectionProps);
