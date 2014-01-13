@@ -2,7 +2,6 @@
 package com.javacareerlab.clscrammer.db;
 
 // import org.apache.derby.jdbc.ClientDriver;
-
 // import org.apache.derby.jdbc.EmbeddedDriver;
 
 import java.sql.Connection;

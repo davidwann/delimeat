@@ -27,8 +27,9 @@ public class CategoryDAO implements ActionListener {
 	
 		// Let's rock!
 		System.out.println("CategoryDAO.actionPerformed method is executing!");
-	
-	
+		System.out.println("ActionEvent.getActionCommand(): " + ae.getActionCommand());
+		System.out.println(" ");
+		
 	}
 	
 	/* - - - - - - - - - - */

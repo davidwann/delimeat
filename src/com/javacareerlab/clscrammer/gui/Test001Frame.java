@@ -69,8 +69,11 @@ public class Test001Frame {
 		JButton connectToDbServerButton;
 		// connectToDbServerButton = new JButton("Create Database");
 		connectToDbServerButton = new JButton("Connect to Database Server");
+		connectToDbServerButton.setActionCommand("Connect_to_DB_Server");
 		
 		connectToDbServerButton.addActionListener(Test001Frame.categoryDao);
+		
+		
 		
 		
 		
