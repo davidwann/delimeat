@@ -4,6 +4,7 @@ package com.javacareerlab.clscrammer.gui;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JButton;
+import javax.swing.JLabel;
 
 import java.awt.GridBagLayout;
 import java.awt.GridBagConstraints;
@@ -19,7 +20,6 @@ public class Test001Frame {
 
 	private static JFrame frame;
 	
-	// private static CategoryDAO categoryDao;
 	private static Category category;
 	
 	/* - - - - - - - - - - */
@@ -55,14 +55,7 @@ public class Test001Frame {
 		
 		JPanel contentPane = new JPanel(new GridBagLayout());
 		
-		// add controls to frame
-		
-		// Container contentPane;
-		// contentPane = Test001Frame.frame.getContentPane();
-		
-		// add a button
-		
-		// set frame size
+		// now add controls to panel
 		
 		/* - - - - - - - - - - - - - - - - - - - - - */
 		/*    Create a GridBagConstraints object     */
@@ -72,43 +65,71 @@ public class Test001Frame {
 		c = new GridBagConstraints();
 		
 		/* - - - - - - - - - - - - */
-		/*     Create a Button     */
+		/*     Create a Label      */
 		/* - - - - - - - - - - - - */
 		
-		JButton connectToDbServerButton;
-		// connectToDbServerButton = new JButton("Create Database");
+		JLabel categoriesLabel = new JLabel("Categories Table");
 		
-		// connectToDbServerButton = new JButton("Connect to Database Server");
-		// connectToDbServerButton.setActionCommand("Connect_to_DB_Server");
+		c.gridx = 0;
+		c.gridy = 0;
+				
+		c.insets = new Insets(32, 56, 8, 56);
 		
-		connectToDbServerButton = new JButton("Insert Record Into Table [Categories]");
-		connectToDbServerButton.setActionCommand("INSERT_INTO_CATEGORIES");
-		
-		// connectToDbServerButton.addActionListener(Test001Frame.categoryDao);
-		// connectToDbServerButton.addActionListener(Test001Frame.category);
-		
-		connectToDbServerButton.addActionListener(new Test001Frame.FrameEventHandler());
+		contentPane.add(categoriesLabel, c);
 		
 		
+		/* - - - - - - - - - - - - - - - - - - - - - */
+		/*     Create 1 (?) Action Listener for      */
+		/*     all the controls on this frame        */
+		/* - - - - - - - - - - - - - - - - - - - - - */
+		
+		Test001Frame.FrameEventHandler myActionListener = new Test001Frame.FrameEventHandler();
 		
 		
+		/* - - - - - - - - - - - - - - - - - - - - - - - */
+		/*     Create a Button - Truncate Table          */
+		/* - - - - - - - - - - - - - - - - - - - - - - - */
+
+		JButton truncateCategoriesTableButton;     // connectToDbServerButton;
 		
+		truncateCategoriesTableButton = new JButton("Truncate Table [Categories]");
+		truncateCategoriesTableButton.setActionCommand("TRUNCATE_TABLE_CATEGORIES");
+		
+		// connectToDbServerButton.addActionListener(new Test001Frame.FrameEventHandler());
+		truncateCategoriesTableButton.addActionListener(myActionListener);
+		
+		c.gridx = 0;
+		c.gridy = 1;
 		
 		// c.ipady = 400;
 		// c.ipadx = 600;
 		
-		c.insets = new Insets(32, 56, 32, 56);
+		c.insets = new Insets(8, 56, 8, 56);
+		
+		contentPane.add(truncateCategoriesTableButton, c);
 		
 		
+		/* - - - - - - - - - - - - - - - - - - - - - - - */
+		/*     Create a Button - Fill Table              */
+		/* - - - - - - - - - - - - - - - - - - - - - - - */
 		
+		JButton connectToDbServerButton;
 		
+		connectToDbServerButton = new JButton("Insert Records into Table [Categories]");
+		connectToDbServerButton.setActionCommand("INSERT_INTO_CATEGORIES");
 		
-		/* - - - - - - - - - - - - - - - - - - */
-		/*    Add Button to the main panel     */
-		/* - - - - - - - - - - - - - - - - - - */
+		// connectToDbServerButton.addActionListener(new Test001Frame.FrameEventHandler());
+		connectToDbServerButton.addActionListener(myActionListener);
+		
+		c.gridx = 0;
+		c.gridy = 2;
+		
+		// c.ipady = 400;
+		// c.ipadx = 600;
+		
+		c.insets = new Insets(8, 56, 8, 56);
 		
 		contentPane.add(connectToDbServerButton, c);
-		
 		
 		
 		/* - - - - - - - - - - - - - - - - - - */
@@ -151,12 +172,18 @@ public class Test001Frame {
 			
 			// do more stuff!
 			
+			// FILL_FROM_TEXT_FILE ?
+			
 			switch (ae.getActionCommand()) {
 			
 				case "INSERT_INTO_CATEGORIES":
 					this.insertRecord();
 					break;
 			
+				case "TRUNCATE_TABLE_CATEGORIES":
+					this.truncateTable();
+					break;
+
 				default:
 					// do nothing
 					break;
@@ -210,13 +237,36 @@ public class Test001Frame {
 			
 			return;
 		}
+
+		/* - - - - - - - - - - */
+
+		private void truncateTable() {
+
+			System.out.println(" ");
+			System.out.println("Method Test001Frame.FrameEventHandler.truncateTable() is executing!");
+			System.out.println(" ");
+
+			this.category.deleteAll();
+
+			return;
+		}
+
+		/* - - - - - - - - - - */
 		
-		/* - - - - - - - - - - */
-
-	
-		/* - - - - - - - - - - */
-
-	
+		// INSERT MULTIPLE RECORDS INTO CATEGORIES TABLE
+		// WITH DATA FROM TEXT FILE
+		
+		// populateCategoriesTableFromTextFile()
+		
+		private void  populateCategoriesTableFromTextFile() {
+			
+			// Loop thru the records in the text file!
+			
+			
+			
+			return;
+		}
+		
 		/* - - - - - - - - - - */
 
 	

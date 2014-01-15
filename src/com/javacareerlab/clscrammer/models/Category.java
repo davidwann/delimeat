@@ -97,8 +97,12 @@ public class Category {
 	}
 	
 	/* - - - - - - - - - - */
-
 	
+	public boolean deleteAll() {
+	
+		return this.categoryDao.deleteAll();
+	}
+
 	/* - - - - - - - - - - */
 
 	

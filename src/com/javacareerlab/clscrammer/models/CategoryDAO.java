@@ -113,6 +113,50 @@ public class CategoryDAO {
 	
 	/* - - - - - - - - - - */
 	
+	public boolean deleteAll() {
+		
+		String sql;
+		PreparedStatement ps = null;
+		int queryResult = 0;
+		
+		/* - - - - - - - - - - */
+		
+		System.out.println(" ");
+		System.out.println("CategoryDAO.deleteAll() is executing...");
+		System.out.println(" ");
+
+		sql = "TRUNCATE TABLE Categories";
+
+		try {
+			ps = this.connection.prepareStatement(sql);
+			queryResult = ps.executeUpdate();
+		}
+		catch (SQLException e) {
+		
+			System.out.println(" ");
+			System.out.println("SQLException was thrown");
+			System.out.println(" ");
+			System.out.println("Error Message:");
+			System.out.println(e.getMessage());
+			System.out.println(" ");
+		}
+		finally {
+			if (ps != null) {
+				try {
+					ps.close();
+				}
+				catch (SQLException e) {
+					// Relax!  Take it easy!
+				}
+			}
+		}
+		
+		System.out.println(" ");
+		System.out.println("PreparedStatement.executeUpdate() returned: " + Integer.toString(queryResult));
+		System.out.println(" ");
+		
+		return true;
+	}
 	
 	/* - - - - - - - - - - */
 	
