@@ -1,13 +1,17 @@
+
 package com.javacareerlab.clscrammer;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
+
+import com.javacareerlab.clscrammer.models.Category;
 
 public class DbLoader {
 	
@@ -121,6 +125,47 @@ public class DbLoader {
 	/* --------------------------------------------------------- */
 	
 	public void loadCategoriesTable() {
+		
+		BufferedReader br;
+		String line;
+		String[] pieces;
+		Category category = new Category();
+		
+		// - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+		
+		try {
+			br = new BufferedReader(new FileReader("temp/categories.txt"));
+		
+			while ((line = br.readLine()) != null) {
+			
+				if (line.length() > 5) {
+
+					pieces = line.split("\\|");
+					
+					category.setCategory(pieces[0]);
+					category.setCategoryDesc(pieces[1]);
+					category.setParentCategory(pieces[2]);
+					category.save();
+				}
+			}
+			
+			br.close();
+		}
+		catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			// e.printStackTrace();
+			// do nothing - I know the file is there
+			System.out.println("File not found");
+		}
+		catch (IOException e) {
+			System.out.println("IOException occured!");
+		}
+		
+	}   // end of method loadCategoriesTable()
+	
+	/* --------------------------------------------------------- */
+	
+	public void loadCategoriesTableVersion001() {
 		
 		Connection conn;
 		Statement ps;

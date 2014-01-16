@@ -10,8 +10,10 @@ import java.awt.GridBagLayout;
 import java.awt.GridBagConstraints;
 import java.awt.Insets;
 
-// import com.javacareerlab.clscrammer.models.CategoryDAO;
+
 import com.javacareerlab.clscrammer.models.Category;
+import com.javacareerlab.clscrammer.DbLoader;
+
 
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
@@ -79,6 +81,8 @@ public class Test001Frame {
 		
 		
 		/* - - - - - - - - - - - - - - - - - - - - - */
+		/*     Create Action Listener                */
+		/*                                           */
 		/*     Create 1 (?) Action Listener for      */
 		/*     all the controls on this frame        */
 		/* - - - - - - - - - - - - - - - - - - - - - */
@@ -202,38 +206,14 @@ public class Test001Frame {
 			System.out.println("Method Test001Frame.FrameEventHandler.insertRecord() is executing!");
 			System.out.println(" ");
 			
-			// reo|Real Estate by Owner|Housing
-			// apa|Apts/Housing For Rent|Housing
-			// roo|Rooms & Shares|Housing
-			// sub|Sublets & Temporary|Housing
-			// sha|Room/Share Wanted|Housing
-
-			this.category.setId(0);
-			
-			// this.category.setCategory("reo");
-			// this.category.setCategoryDesc("Real Estate by Owner");
+			// this.category.setId(0);
+			// this.category.setCategory("apa");
+			// this.category.setCategoryDesc("Apts/Housing For Rent");
 			// this.category.setParentCategory("Housing");
 			// this.category.save();
 			
-			this.category.setCategory("apa");
-			this.category.setCategoryDesc("Apts/Housing For Rent");
-			this.category.setParentCategory("Housing");
-			this.category.save();
-			
-			this.category.setCategory("roo");
-			this.category.setCategoryDesc("Rooms & Shares");
-			this.category.setParentCategory("Housing");
-			this.category.save();
-			
-			this.category.setCategory("sub");
-			this.category.setCategoryDesc("Sublets & Temporary");
-			this.category.setParentCategory("Housing");
-			this.category.save();
-			
-			this.category.setCategory("sha");
-			this.category.setCategoryDesc("Room/Share Wanted");
-			this.category.setParentCategory("Housing");
-			this.category.save();
+			DbLoader myDbLoader = new DbLoader();
+			myDbLoader.loadCategoriesTable();
 			
 			return;
 		}
