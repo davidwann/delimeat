@@ -70,18 +70,15 @@ public class CityDAO {
 			  "   VALUES                " + 
 			  "      (?, ?, ?, ?, ?, ?) ";
 		
-		
-		
-		/*   HERE*HERE        */
-		/*   FRIDAY MORNING   */
-		
-		
 		try {
 			ps = this.connection.prepareStatement(sql);
 		
-			ps.setString(1, category.getCategory());
-			ps.setString(2, category.getCategoryDesc());
-			ps.setString(3, category.getParentCategory());
+			ps.setString(1, city.getCity());
+			ps.setString(2, city.getCitySector());
+			ps.setString(3, city.getWebsite());
+			ps.setString(4, city.getWebsiteType());
+			ps.setString(5, city.getSpam());
+			ps.setString(6, city.getRegion());
 		
 			queryResult = ps.executeUpdate();
 		}
@@ -116,7 +113,7 @@ public class CityDAO {
 	
 	/* - - - - - - - - - - */
 	
-	private boolean update(Category category) {
+	private boolean update(City city) {
 	
 		return true;
 	}
@@ -132,10 +129,10 @@ public class CityDAO {
 		/* - - - - - - - - - - */
 		
 		System.out.println(" ");
-		System.out.println("CategoryDAO.deleteAll() is executing...");
+		System.out.println("CityDAO.deleteAll() is executing...");
 		System.out.println(" ");
 
-		sql = "TRUNCATE TABLE Categories";
+		sql = "TRUNCATE TABLE Cities";
 
 		try {
 			ps = this.connection.prepareStatement(sql);

@@ -22,7 +22,7 @@ import com.javacareerlab.clscrammer.listeners.EmailCompletionListener;
 import com.javacareerlab.clscrammer.listeners.HarvestCompletionListener;
 
 public class MainFrame {
-	
+
 	private static JFrame frame;
 	
 	private static JButton startHarvestButton;

@@ -24,6 +24,8 @@ public class City {
 		this.websiteType = "";
 		this.spam = "";
 		this.region = "";
+		
+		this.cityDao = new CityDAO();
 	}
 	
 	/* - - - - - - - - - - - - - - - - - - - - - */

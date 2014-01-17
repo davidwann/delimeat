@@ -24,6 +24,7 @@ public class CityCat {
 	
 	private String city;
 	private String category;
+	
 	private String citySector;
 	private String website;
 	private String websiteType;

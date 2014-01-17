@@ -12,6 +12,8 @@ import java.awt.Insets;
 
 
 import com.javacareerlab.clscrammer.models.Category;
+import com.javacareerlab.clscrammer.models.City;
+
 import com.javacareerlab.clscrammer.DbLoader;
 
 
@@ -66,9 +68,9 @@ public class Test001Frame {
 		GridBagConstraints c;
 		c = new GridBagConstraints();
 		
-		/* - - - - - - - - - - - - */
-		/*     Create a Label      */
-		/* - - - - - - - - - - - - */
+		/* - - - - - - - - - - - - - - - - - - */
+		/*     Create a Categories Label       */
+		/* - - - - - - - - - - - - - - - - - - */
 		
 		JLabel categoriesLabel = new JLabel("Categories Table");
 		
@@ -78,6 +80,20 @@ public class Test001Frame {
 		c.insets = new Insets(32, 56, 8, 56);
 		
 		contentPane.add(categoriesLabel, c);
+		
+		
+		/* - - - - - - - - - - - - - - - - - - */
+		/*     Create a Cities Label           */
+		/* - - - - - - - - - - - - - - - - - - */
+		
+		JLabel citiesLabel = new JLabel("Cities Table");
+		
+		c.gridx = 1;
+		c.gridy = 0;
+				
+		c.insets = new Insets(32, 56, 8, 56);
+		
+		contentPane.add(citiesLabel, c);
 		
 		
 		/* - - - - - - - - - - - - - - - - - - - - - */
@@ -90,9 +106,9 @@ public class Test001Frame {
 		Test001Frame.FrameEventHandler myActionListener = new Test001Frame.FrameEventHandler();
 		
 		
-		/* - - - - - - - - - - - - - - - - - - - - - - - */
-		/*     Create a Button - Truncate Table          */
-		/* - - - - - - - - - - - - - - - - - - - - - - - */
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+		/*     Create a Button - Truncate Categories Table       */
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 		JButton truncateCategoriesTableButton;     // connectToDbServerButton;
 		
@@ -113,9 +129,9 @@ public class Test001Frame {
 		contentPane.add(truncateCategoriesTableButton, c);
 		
 		
-		/* - - - - - - - - - - - - - - - - - - - - - - - */
-		/*     Create a Button - Fill Table              */
-		/* - - - - - - - - - - - - - - - - - - - - - - - */
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+		/*     Create a Button - Fill Categories Table           */
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 		
 		JButton connectToDbServerButton;
 		
@@ -136,8 +152,50 @@ public class Test001Frame {
 		contentPane.add(connectToDbServerButton, c);
 		
 		
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+		/*     Create a Button - Truncate Cities Table           */
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+		JButton truncateCitiesTableButton;
+		
+		truncateCitiesTableButton = new JButton("Truncate Table [Cities]");
+		truncateCitiesTableButton.setActionCommand("TRUNCATE_TABLE_CITIES");
+		truncateCitiesTableButton.addActionListener(myActionListener);
+		
+		c.gridx = 1;
+		c.gridy = 1;
+		
+		// c.ipady = 400;
+		// c.ipadx = 600;
+		
+		c.insets = new Insets(8, 56, 8, 56);
+		
+		contentPane.add(truncateCitiesTableButton, c);
+		
+		
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+		/*     Create a Button - Fill Categories Table           */
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+		
+		JButton populateCitiesTableButton;
+		
+		populateCitiesTableButton = new JButton("Insert Records into Table [Cities]");
+		populateCitiesTableButton.setActionCommand("INSERT_INTO_CITIES");
+		populateCitiesTableButton.addActionListener(myActionListener);
+		
+		c.gridx = 1;
+		c.gridy = 2;
+		
+		// c.ipady = 400;
+		// c.ipadx = 600;
+		
+		c.insets = new Insets(8, 56, 8, 56);
+		
+		contentPane.add(populateCitiesTableButton, c);
+		
+		
 		/* - - - - - - - - - - - - - - - - - - */
-		/*                                     */
+		/*     Finish building our frame       */
 		/* - - - - - - - - - - - - - - - - - - */
 		
 		Test001Frame.frame.setContentPane(contentPane);
@@ -156,12 +214,14 @@ public class Test001Frame {
 	private static class FrameEventHandler implements ActionListener {
 	
 		private Category category;
+		private City city;
 	
 		/* - - - - - - - - - - */
 		// default constructor
 		/* - - - - - - - - - - */
 		public FrameEventHandler() {
 			this.category = new Category();
+			this.city = new City();
 		}
 	
 		/* - - - - - - - - - - */
@@ -187,17 +247,50 @@ public class Test001Frame {
 				case "TRUNCATE_TABLE_CATEGORIES":
 					this.truncateTable();
 					break;
+			
+				case "INSERT_INTO_CITIES":
+					this.populateCitiesTable();
+					break;
+			
+				case "TRUNCATE_TABLE_CITIES":
+					this.truncateCitiesTable();
+					break;
 
 				default:
 					// do nothing
 					break;
 			}
-			
-			
-			
-			
+
+
 		}
 	
+		/* - - - - - - - - - - */
+		
+		private void populateCitiesTable() {
+		
+			System.out.println(" ");
+			System.out.println("Method Test001Frame.FrameEventHandler.populateCitiesTable() is executing!");
+			System.out.println(" ");
+			
+			DbLoader myDbLoader = new DbLoader();
+			myDbLoader.loadCitiesTable();
+			
+			return;
+		}
+		
+		/* - - - - - - - - - - */
+		
+		private void truncateCitiesTable() {
+
+			System.out.println(" ");
+			System.out.println("Method Test001Frame.FrameEventHandler.truncateCitiesTable() is executing!");
+			System.out.println(" ");
+
+			this.city.deleteAll();
+
+			return;
+		}
+		
 		/* - - - - - - - - - - */
 		
 		private void insertRecord() {
