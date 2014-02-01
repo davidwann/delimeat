@@ -152,9 +152,9 @@ public class CityCat {
 		// connect to a database
 		try {
 			// conn = DriverManager.getConnection("jdbc:derby:SpamDB");
-			conn = DriverManager.getConnection("jdbc:derby:D:/JavaCLScrammer/SpamDB");
+			this.conn = DriverManager.getConnection("jdbc:derby:D:/JavaCLScrammer/SpamDB");
 			
-			statement = conn.createStatement();
+			this.statement = conn.createStatement();
 
 			WebPage page = new WebPage();
 
