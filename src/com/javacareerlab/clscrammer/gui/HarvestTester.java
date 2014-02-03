@@ -1,7 +1,6 @@
 
 package com.javacareerlab.clscrammer.gui;
 
-import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
@@ -13,12 +12,14 @@ import javax.swing.DefaultComboBoxModel;
 
 
 // import java.net.URL;
+import java.lang.NullPointerException;
 
 
 import javax.swing.JButton;
 import javax.swing.JLabel;
 
 import javax.swing.AbstractAction;
+
 import javax.swing.ImageIcon;
 
 import java.awt.event.ActionEvent;
@@ -94,18 +95,56 @@ public class HarvestTester extends JFrame {
 		// add a button
 		
 		JButton myButton;
-		// URL url;
+		
+		// URL url = null;
+		ImageIcon img = null;
 		
 		// url = getClass().getResource("images/harvest.png");
 		
-		ImageIcon img;
 		
-		img = new ImageIcon("images/harvest.png");
+		try {
+			
+			/* - - - - - - - - */
+			
+			// url = getClass().getResource("/images/harvest.png");
+			// url = getClass().getResource("images/harvest.png");
+			// url = getClass().getResource("harvest.png");
+			
+			// url = getClass().getClassLoader().getResource("/images/harvest.png");
+			
+			
+			/* - - - - - - - - */
+			
+			img = new ImageIcon("images/harvest.png");
+			// img = new ImageIcon(HarvestTester.class.getResource("/images/harvest.png"));
+			
+			// img = new ImageIcon(url, "A basket of goodies");
+			
+			/* - - - - - - - - */
+			
+			myButton = new JButton("Click Me", img);
+			// myButton = new JButton("Click Me");
+			
+			this.contentPane.add(myButton);
+			
+		}
+		catch (NullPointerException ex) {
+			
+			System.out.println(ex.getMessage());
+			
+		}
+		catch (Exception ex) {
+			
+			System.out.println(ex.getMessage());
+			
+			
+			
+			
+		}
 		
-		myButton = new JButton("Click Me", img);
-		// myButton = new JButton("Click Me");
 		
-		this.contentPane.add(myButton);
+		
+		
 		
 		// - - - - - - - - - - - - - - - - - -
 		
