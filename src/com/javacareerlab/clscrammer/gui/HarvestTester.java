@@ -1,6 +1,7 @@
 
 package com.javacareerlab.clscrammer.gui;
 
+import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
@@ -9,6 +10,10 @@ import java.awt.GridLayout;
 
 import javax.swing.JComboBox;
 import javax.swing.DefaultComboBoxModel;
+
+
+// import java.net.URL;
+
 
 import javax.swing.JButton;
 import javax.swing.JLabel;
@@ -22,8 +27,14 @@ import java.awt.event.KeyEvent;
 import com.javacareerlab.clscrammer.WebPage;
 
 		
+
+
 public class HarvestTester extends JFrame {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
 
 	public HarvestTester() {
@@ -55,14 +66,14 @@ public class HarvestTester extends JFrame {
 	
 	private void addWidgets() {
 	
-		// add a combo box
-		
-		JComboBox cities;
-		DefaultComboBoxModel<String> model;
-		
 		// - - - - - - - - - - - - - - - - - -
 		
-		cities = new JComboBox();
+		// add a combo box
+		
+		JComboBox<String> cities;
+		DefaultComboBoxModel<String> model;
+		
+		cities = new JComboBox<String>();
 		model = new DefaultComboBoxModel<String>();
 		
 		model.addElement("Memphis");
@@ -77,6 +88,28 @@ public class HarvestTester extends JFrame {
 		cities.setModel(model);
 		
 		this.contentPane.add(cities);
+		
+		// - - - - - - - - - - - - - - - - - -
+		
+		// add a button
+		
+		JButton myButton;
+		// URL url;
+		
+		// url = getClass().getResource("images/harvest.png");
+		
+		ImageIcon img;
+		
+		img = new ImageIcon("images/harvest.png");
+		
+		myButton = new JButton("Click Me", img);
+		// myButton = new JButton("Click Me");
+		
+		this.contentPane.add(myButton);
+		
+		// - - - - - - - - - - - - - - - - - -
+		
+		
 		
 		/* - - - - - - - - - - */
 		// add a go button
@@ -93,8 +126,6 @@ public class HarvestTester extends JFrame {
 		/* - - - - - - - - - - */
 		
 		this.contentPane.add(this.getGrid());
-		
-		
 		
 		
 		
