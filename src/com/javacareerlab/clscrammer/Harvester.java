@@ -434,7 +434,7 @@ public class Harvester implements Runnable {
 		
 		HarvestCompletionEvent event = new HarvestCompletionEvent(this);
 		
-		Iterator<HarvestCompletionListener> i = listeners.iterator();
+		Iterator<HarvestCompletionListener> i = this.listeners.iterator();
 		
 		HarvestCompletionListener listener;
 		

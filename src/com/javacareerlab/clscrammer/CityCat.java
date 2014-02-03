@@ -1,13 +1,18 @@
+
 package com.javacareerlab.clscrammer;
 
 // import java.io.IOException;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
+
 import java.text.SimpleDateFormat;
+
 import java.util.List;
 import java.util.ArrayList;
+
 // import java.util.logging.FileHandler;
 // import java.util.logging.Level;
 // import java.util.logging.Logger;
@@ -19,6 +24,7 @@ public class CityCat {
 	
 	private String city;
 	private String category;
+	
 	private String citySector;
 	private String website;
 	private String websiteType;
@@ -146,9 +152,9 @@ public class CityCat {
 		// connect to a database
 		try {
 			// conn = DriverManager.getConnection("jdbc:derby:SpamDB");
-			conn = DriverManager.getConnection("jdbc:derby:D:/JavaCLScrammer/SpamDB");
+			this.conn = DriverManager.getConnection("jdbc:derby:D:/JavaCLScrammer/SpamDB");
 			
-			statement = conn.createStatement();
+			this.statement = conn.createStatement();
 
 			WebPage page = new WebPage();
 

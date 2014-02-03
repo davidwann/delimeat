@@ -67,18 +67,15 @@ public class WebPage {
 	   public void setUrl(String url) {
 
 	      this.url = url;
+		  
+	      this.setPageType();
+	      this.setHtml();
 	      
 	      this.emailAddresses.clear();
 	      this.subLinks.clear();
 	      
-	      this.setPageType();
-	      this.setHtml();
-	      
-
 	      // this.log.log(Level.INFO, "WebPage : pageType: " + this.pageType);
 
-			
-	      
 	      if (this.pageType.equalsIgnoreCase("A")) {
 	    	  this.setEmailAddresses();
 	    	  this.setAdDate();

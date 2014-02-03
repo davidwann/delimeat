@@ -10,7 +10,12 @@ public class GuiMaster {
 		
 		SwingUtilities.invokeLater(new Runnable() {
 			public void run() {
-				MainFrame.createAndShowFrame();
+			
+				// MainFrame.createAndShowFrame();
+				// Test001Frame.createAndShowFrame();
+				
+				HarvestTester harvestTester = new HarvestTester();
+				harvestTester.setVisible(true);
 			}
 		});
 	}

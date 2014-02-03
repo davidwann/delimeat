@@ -9,6 +9,7 @@ import java.awt.event.ActionListener;
 
 // import javax.swing.AbstractAction;
 // import javax.swing.BorderFactory;
+
 import javax.swing.JButton;
 import javax.swing.JFrame;
 
@@ -21,7 +22,7 @@ import com.javacareerlab.clscrammer.listeners.EmailCompletionListener;
 import com.javacareerlab.clscrammer.listeners.HarvestCompletionListener;
 
 public class MainFrame {
-	
+
 	private static JFrame frame;
 	
 	private static JButton startHarvestButton;
