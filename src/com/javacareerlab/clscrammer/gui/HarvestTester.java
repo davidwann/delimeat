@@ -11,7 +11,7 @@ import javax.swing.JComboBox;
 import javax.swing.DefaultComboBoxModel;
 
 
-// import java.net.URL;
+import java.net.URL;
 import java.lang.NullPointerException;
 
 
@@ -27,9 +27,6 @@ import java.awt.event.KeyEvent;
 
 import com.javacareerlab.clscrammer.WebPage;
 
-		
-
-
 public class HarvestTester extends JFrame {
 
 	/**
@@ -40,10 +37,7 @@ public class HarvestTester extends JFrame {
 
 	public HarvestTester() {
 	
-	
-	
 		this.initFrame();
-	
 	
 	}
 	
@@ -96,59 +90,15 @@ public class HarvestTester extends JFrame {
 		
 		JButton myButton;
 		
-		// URL url = null;
-		ImageIcon img = null;
-		
-		// url = getClass().getResource("images/harvest.png");
-		
-		
-		try {
+		URL url = getClass().getResource("/harvest.png");
+		ImageIcon img = new ImageIcon(url, "A basket of goodies");
 			
-			/* - - - - - - - - */
+		myButton = new JButton("Harvest Emails", img);
+		// myButton = new JButton("Click Me");
 			
-			// url = getClass().getResource("/images/harvest.png");
-			// url = getClass().getResource("images/harvest.png");
-			// url = getClass().getResource("harvest.png");
+		this.contentPane.add(myButton);
 			
-			// url = getClass().getClassLoader().getResource("/images/harvest.png");
-			
-			
-			/* - - - - - - - - */
-			
-			img = new ImageIcon("images/harvest.png");
-			// img = new ImageIcon(HarvestTester.class.getResource("/images/harvest.png"));
-			
-			// img = new ImageIcon(url, "A basket of goodies");
-			
-			/* - - - - - - - - */
-			
-			myButton = new JButton("Click Me", img);
-			// myButton = new JButton("Click Me");
-			
-			this.contentPane.add(myButton);
-			
-		}
-		catch (NullPointerException ex) {
-			
-			System.out.println(ex.getMessage());
-			
-		}
-		catch (Exception ex) {
-			
-			System.out.println(ex.getMessage());
-			
-			
-			
-			
-		}
-		
-		
-		
-		
-		
 		// - - - - - - - - - - - - - - - - - -
-		
-		
 		
 		/* - - - - - - - - - - */
 		// add a go button
@@ -166,11 +116,36 @@ public class HarvestTester extends JFrame {
 		
 		this.contentPane.add(this.getGrid());
 		
+		/* - - - - - - - - - - - - - - - - - - - - - - */
+		// add label, text box, button, and table
+		/* - - - - - - - - - - - - - - - - - - - - - - */
 		
 		
 		
 		
 		
+		
+		
+		
+		
+	}
+	
+	/* - - - - - - - - - - - - */
+	
+	private JPanel getTestInputPanel1() {
+	
+		JPanel myPanel;
+		
+		myPanel = new JPanel();
+		
+		
+		
+		
+		
+		
+	
+	
+		return myPanel;
 	}
 	
 	/* - - - - - - - - - - - - */
