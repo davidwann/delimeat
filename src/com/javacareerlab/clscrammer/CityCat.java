@@ -24,13 +24,12 @@ public class CityCat {
 	
 	private String city;
 	private String category;
+	private int pageDepth;
 	
 	private String citySector;
 	private String website;
 	private String websiteType;
 	private String spam;
-
-	private int pageDepth;
 
 	private List<String> adListPageUrls;
 	
@@ -88,7 +87,37 @@ public class CityCat {
 		
 	}
 	
-	/* ==================================================== */	
+	/* - - - - - - - - - - - - */
+
+	public void setCity(String city) {
+		this.city = city;
+	}
+	
+	public String getCity() {
+		return this.city;
+	}
+	
+	/* - - - - - - - - - - - - */
+	
+	public void setCategory(String category) {
+		this.category = category;
+	}
+
+	public String getCategory() {
+		return this.category;
+	}
+	
+	/* - - - - - - - - - - - - */
+	
+	public void setPageDepth(int pageDepth) {
+		this.pageDepth = pageDepth;
+	}
+	
+	public int getPageDepth() {
+		return this.pageDepth;
+	}
+	
+	/* - - - - - - - - - - - - */
 
 	private void setAdListPageUrls() {
 		
@@ -116,18 +145,6 @@ public class CityCat {
 		}
 	}   // end of method setAdListPageUrls()
 
-	/* ==================================================== */	
-
-	public String getCity() {
-		return this.city;
-	}
-	
-	/* ==================================================== */	
-
-	public String getCategory() {
-		return this.category;
-	}
-	
 	/* ==================================================== */	
 
 	public void displayCityCat() {

@@ -1,19 +1,25 @@
+
 package com.javacareerlab.clscrammer;
 
 // import java.io.IOException;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+
 // import java.text.SimpleDateFormat;
 
 import java.util.ArrayList;
+
 // import java.util.Date;
+
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
+
 // import java.util.logging.FileHandler;
 // import java.util.logging.Level;
 // import java.util.logging.Logger;
@@ -22,6 +28,8 @@ import com.javacareerlab.clscrammer.events.HarvestCompletionEvent;
 import com.javacareerlab.clscrammer.listeners.HarvestCompletionListener;
 
 public class Harvester implements Runnable {
+	
+	private CityCat cityCat;
 	
 	private Queue<CityCat> cityCats;
 	private CityCatGroupProcessor[] ccgp;
@@ -62,8 +70,27 @@ public class Harvester implements Runnable {
 //		}
 
 	}
-
-	/* ==================================================== */
+	
+	/* - - - - - - - - - - - - */
+	
+	public void setCityCat(CityCat cityCat) {
+		this.cityCat = cityCat;
+	}
+	
+	public CityCat getCityCat() {
+		return this.cityCat;
+	}
+	
+	/* - - - - - - - - - - - - */
+	
+	
+	
+	
+	
+	
+	
+	
+	/* - - - - - - - - - - - - */
 	
 	public void logTest() {
 		
