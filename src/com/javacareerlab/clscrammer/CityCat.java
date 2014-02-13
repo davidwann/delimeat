@@ -173,7 +173,8 @@ public class CityCat {
 			
 			this.statement = conn.createStatement();
 
-			WebPage page = new WebPage();
+			// WebPage page = new WebPage();
+			ClAdList page = new ClAdList();
 
 			for (String url : this.adListPageUrls) {
 				
@@ -223,7 +224,9 @@ public class CityCat {
 
 	private void processAdLinks(List<String> adLinks) {
 		
-		WebPage page = new WebPage();
+		// WebPage page = new WebPage();
+		
+		ClAd page = new ClAd();
 		
 		String sql;
 		String adDate;

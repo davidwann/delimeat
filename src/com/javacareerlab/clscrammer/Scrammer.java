@@ -96,6 +96,10 @@ public class Scrammer {
 		
 		WebPage wp = new WebPage();
 		
+		// ClAd wp = new ClAd();
+		
+		// ClAdList wp = new ClAdList();
+		
 		// wp.setUrl("http://memphis.craigslist.org/reo/");
 		wp.setUrl("http://memphis.craigslist.org/reo/index200.html");
 		// wp.setUrl("http://memphis.craigslist.org/reo/3085638564.html");
@@ -109,33 +113,33 @@ public class Scrammer {
 		System.out.println("URL:");
 		System.out.println(wp.getUrl());
 		
-		System.out.println("");
-		System.out.println("Page Type:");
-		System.out.println(wp.getPageType());
+		// System.out.println("");
+		// System.out.println("Page Type:");
+		// System.out.println(wp.getPageType());
 		
-		System.out.println("");
-		System.out.println("Ad Date:");
-		System.out.println(wp.getAdDate().toString());
-		System.out.println((new SimpleDateFormat("MM/dd/yyyy")).format(wp.getAdDate())); 
+		// System.out.println("");
+		// System.out.println("Ad Date:");
+		// System.out.println(wp.getAdDate().toString());
+		// System.out.println((new SimpleDateFormat("MM/dd/yyyy")).format(wp.getAdDate())); 
 		
-		System.out.println("");
-		System.out.println("Email Addresses:");
+		// System.out.println("");
+		// System.out.println("Email Addresses:");
 		
-		for (String emailAddress : wp.getEmailAddresses())
-			System.out.println(emailAddress);
+		// for (String emailAddress : wp.getEmailAddresses())
+		// 	System.out.println(emailAddress);
 		
-		System.out.println("");
-		System.out.println("Sublinks:");
-		System.out.println("");
+		// System.out.println("");
+		// System.out.println("Sublinks:");
+		// System.out.println("");
 		
-		for (String subLink : wp.getSubLinks()) {
-			
-			// System.out.println("");
-			// System.out.println("One SubLink:");
-			// System.out.println("- - -");
-			System.out.println(subLink);
-			// System.out.println("- - -");
-		}
+		// for (String subLink : wp.getSubLinks()) {
+		// 	
+		// 	// System.out.println("");
+		// 	// System.out.println("One SubLink:");
+		// 	// System.out.println("- - -");
+		// 	System.out.println(subLink);
+		// 	// System.out.println("- - -");
+		// }
 		
 		// System.out.println("");
 		// System.out.println("HTML:");

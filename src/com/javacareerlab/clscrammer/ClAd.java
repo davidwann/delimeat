@@ -1,6 +1,27 @@
 
 package com.javacareerlab.clscrammer;
 
+
+import java.util.List;
+import java.util.ArrayList;
+
+
+
+import java.util.Date;
+
+
+
+import java.text.SimpleDateFormat;
+import java.text.ParseException;
+
+
+
+import java.util.regex.Pattern;
+import java.util.regex.Matcher;
+
+
+
+
 public class ClAd extends WebPage {
 
 	private Date adDate;
@@ -19,6 +40,9 @@ public class ClAd extends WebPage {
 	
 		this.adDate = new Date();
 		this.emailAddresses = new ArrayList<String>();
+		
+		this.retrieveAdDate();
+		this.retrieveEmailAddresses();
 	}
 	
 	/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
@@ -49,7 +73,17 @@ public class ClAd extends WebPage {
 		while (m.find())
 			this.emailAddresses.add(m.group());
 	}
+
+	/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+	// overridden from base class
+	public void setUrl(String url) {
 	
+		super.setUrl(url);
+		this.retrieveEmailAddresses();
+		this.retrieveAdDate();
+	}
+
 	/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 	private void setAdDate(Date adDate) {

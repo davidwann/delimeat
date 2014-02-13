@@ -1,19 +1,19 @@
 
 package com.javacareerlab.clscrammer;
 
-import java.util.List;
-import java.util.ArrayList;
-import java.util.Date;
+// import java.util.List;
+// import java.util.ArrayList;
+// import java.util.Date;
 
-import java.text.SimpleDateFormat;
-import java.text.ParseException;
+// import java.text.SimpleDateFormat;
+// import java.text.ParseException;
 
 // import java.util.logging.FileHandler;
 // import java.util.logging.Level;
 // import java.util.logging.Logger;
 
-import java.util.regex.Pattern;
-import java.util.regex.Matcher;
+// import java.util.regex.Pattern;
+// import java.util.regex.Matcher;
 
 import java.net.URL;
 import java.net.MalformedURLException;
@@ -24,24 +24,24 @@ import java.io.IOException;
 
 public class WebPage {
 
-	private String url;
-	private String html;
+	protected String url;
+	protected String html;
 	   
 	/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 	public WebPage() {
 
-		String url = "http://www.foo.com";
-		String html = "<html><head><title>Initial HTML</title></head><body><h2>Initial HTML</h2></body></html>";
+		// String url = "http://www.foo.com";
+		// String html = "<html><head><title>Initial HTML</title></head><body><h2>Initial HTML</h2></body></html>";
 		  
-		this(url, html);
+		this("", "");
 	}
 
 	public WebPage(String url) {
 		
-		String html = "<html><head><title>Initial HTML</title></head><body><h2>Initial HTML</h2></body></html>";
+		// String html = "<html><head><title>Initial HTML</title></head><body><h2>Initial HTML</h2></body></html>";
 		
-		this(url, html);
+		this(url, "");
 	}
 
 	public WebPage(String url, String html) {
