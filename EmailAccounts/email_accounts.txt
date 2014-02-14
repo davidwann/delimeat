@@ -13,3 +13,4 @@ Y|diknmar@centurytel.net|diknmar@centurytel.net|ds567456f|smtpauth.centurytel.ne
 Y|markcarroll@optonline.net|markcarroll|morley1|mail.optonline.net|587|markcarroll|optonline.net
 Y|fehrbuilders@embarqmail.com|fehrbuilders@embarqmail.com|9931719|smtp.embarqmail.com|25|fehrbuilders|embarqmail.com
 Y|lmartin_7392@fuse.net|lmartin_7392@fuse.net|frosty1942|smtp.fuse.net|25|lmartin_7392|fuse.net
+Y|davew_2@yahoo.com|davew_2@yahoo.com|gohogs|smtp.mail.yahoo.com|465|davew_2|yahoo.com

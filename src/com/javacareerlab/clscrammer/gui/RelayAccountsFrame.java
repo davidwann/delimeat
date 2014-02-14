@@ -237,8 +237,8 @@ public class RelayAccountsFrame {
 		
 		// open text file
 		try {
-			// br = new BufferedReader(new FileReader("EmailAccounts\\email_accounts.txt"));
-			br = new BufferedReader(new FileReader("D:\\JavaCLScrammer\\email_accounts.txt"));
+			br = new BufferedReader(new FileReader("EmailAccounts\\email_accounts.txt"));
+			// br = new BufferedReader(new FileReader("D:\\JavaCLScrammer\\email_accounts.txt"));
 			
 			while ((line = br.readLine()) != null) {
 
